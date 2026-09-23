@@ -1,9 +1,26 @@
 /* Design tokens. Change the brand here and it updates everywhere. */
-:root{
-  --cell:#0C2B4A; --cell-2:#14416C; --sun:#FFB400; --sun-ink:#2E1F00; --lake:#0F6E6E;
-  --sky:#E6EFF5; --paper:#F8FAFB; --ink:#14202C; --mute:#546372; --line:#D3DEE6;
-  --f-display:'Bricolage Grotesque',system-ui,sans-serif; --f-body:'Figtree',system-ui,sans-serif;
-  --s1:.5rem; --s2:1rem; --s3:1.5rem; --s4:2.5rem; --s5:5rem;
-  --r-card:12px; --r-btn:4px; --max:1180px;
-  --t-h1:clamp(2.4rem,6vw,4.6rem); --t-h2:clamp(1.6rem,3vw,2.3rem); --t-h3:1.15rem;
+:root {
+  --cell: #0C2B4A;
+  --cell-2: #14416C;
+  --sun: #FFB400;
+  --sun-ink: #2E1F00;
+  --lake: #0F6E6E;
+  --sky: #E6EFF5;
+  --paper: #F8FAFB;
+  --ink: #14202C;
+  --mute: #546372;
+  --line: #D3DEE6;
+  --f-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --f-body: 'Figtree', system-ui, sans-serif;
+  --s1: .5rem;
+  --s2: 1rem;
+  --s3: 1.5rem;
+  --s4: 2.5rem;
+  --s5: 5rem;
+  --r-card: 12px;
+  --r-btn: 4px;
+  --max: 1180px;
+  --t-h1: clamp(2.4rem, 6vw, 4.6rem);
+  --t-h2: clamp(1.6rem, 3vw, 2.3rem);
+  --t-h3: 1.15rem;
 }

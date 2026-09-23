@@ -2,11 +2,18 @@ import { useEffect, useId, useState, type FormEvent } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import { search } from '../data/products';
+
 export default function Header() {
-  const [q, setQ] = useState(''); const [open, setOpen] = useState(false); const [menu, setMenu] = useState(false);
-  const { count } = useCart(); const nav = useNavigate(); const lid = useId();
+  const [q, setQ] = useState('');
+  const [open, setOpen] = useState(false);
+  const [menu, setMenu] = useState(false);
+  const { count } = useCart();
+  const nav = useNavigate();
+  const lid = useId();
   const hits = q.trim() ? search(q).slice(0, 5) : [];
+
   useEffect(() => { const f = (e: KeyboardEvent) => e.key === 'Escape' && setOpen(false); window.addEventListener('keydown', f); return () => window.removeEventListener('keydown', f); }, []);
+
   const go = (e: FormEvent) => { e.preventDefault(); setOpen(false); nav(`/products?q=${encodeURIComponent(q.trim())}`); };
   return (
     <header className="hdr">
