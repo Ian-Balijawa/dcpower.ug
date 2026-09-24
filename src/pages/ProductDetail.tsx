@@ -220,10 +220,10 @@ export default function ProductDetail() {
 
           {hasPrice && qty > 1 && (
             <p className="pd-total small">
-              Total: <strong>{ugx(p.price * qty)}</strong>
+              Total: <strong>{ugx((p.price ?? 0) * qty)}</strong>
             </p>
           )}
-
+          
           {hasPrice && (
             <button
               className="btn pd-cta"
