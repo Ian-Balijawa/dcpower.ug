@@ -14,7 +14,9 @@ export default function Header() {
 
   useEffect(() => {
     const f = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false)
+
     window.addEventListener("keydown", f)
+
     return () => window.removeEventListener("keydown", f)
   }, [])
 
@@ -23,13 +25,18 @@ export default function Header() {
     setOpen(false)
     nav(`/products?q=${encodeURIComponent(q.trim())}`)
   }
+
   return (
     <header className="hdr">
       <div className="wrap hdr-in">
         <Link to="/" className="logo" aria-label="DC Power Uganda home">
-          <span className="logo-sun" aria-hidden="true" />
-          DC Power
+          <img
+            src="/images/logo.jpeg"
+            alt="DC Power"
+            className="logo-img"
+          />
         </Link>
+
         <button
           className="menu-btn"
           aria-expanded={menu}
@@ -38,6 +45,7 @@ export default function Header() {
         >
           Menu
         </button>
+
         <nav
           id="nav"
           className={menu ? "open" : ""}
@@ -48,10 +56,12 @@ export default function Header() {
           <NavLink to="/about">About</NavLink>
           <NavLink to="/contact">Contact</NavLink>
         </nav>
+
         <form className="search" role="search" onSubmit={go}>
           <label htmlFor="q" className="sr">
             Search products
           </label>
+
           <input
             id="q"
             type="search"
@@ -66,6 +76,7 @@ export default function Header() {
             aria-controls={lid}
             aria-expanded={open && hits.length > 0}
           />
+
           {open && hits.length > 0 && (
             <ul id={lid} className="suggest">
               {hits.map((p) => (
@@ -85,7 +96,12 @@ export default function Header() {
             </ul>
           )}
         </form>
-        <Link to="/cart" className="cart-link" aria-label={`Cart, ${count} items`}>
+
+        <Link
+          to="/cart"
+          className="cart-link"
+          aria-label={`Cart, ${count} items`}
+        >
           Cart
           <span className="badge" aria-hidden="true">
             {count}
