@@ -1,18 +1,18 @@
 /* Design tokens. Change the brand here and it updates everywhere. */
 :root {
-  --cell: #0C2B4A;
-  --cell-2: #14416C;
-  --sun: #FFB400;
-  --sun-ink: #2E1F00;
-  --lake: #0F6E6E;
-  --sky: #E6EFF5;
-  --paper: #F8FAFB;
-  --ink: #14202C;
+  --cell: #0c2b4a;
+  --cell-2: #14416c;
+  --sun: #ffb400;
+  --sun-ink: #2e1f00;
+  --lake: #0f6e6e;
+  --sky: #e6eff5;
+  --paper: #f8fafb;
+  --ink: #14202c;
   --mute: #546372;
-  --line: #D3DEE6;
-  --f-display: 'Bricolage Grotesque', system-ui, sans-serif;
-  --f-body: 'Figtree', system-ui, sans-serif;
-  --s1: .5rem;
+  --line: #d3dee6;
+  --f-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --f-body: "Figtree", system-ui, sans-serif;
+  --s1: 0.5rem;
   --s2: 1rem;
   --s3: 1.5rem;
   --s4: 2.5rem;
