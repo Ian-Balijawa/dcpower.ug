@@ -5,7 +5,7 @@ import { waLink } from "../lib/whatsapp"
 export default function Contact() {
   useSeo({
     title: "Contact us",
-    description: "Talk to DC Solar about a quote, installation or support.",
+    description: "Talk to DC Power about a quote, installation or support.",
     path: "/contact"
   })
   const [err, setErr] = useState("")
@@ -18,7 +18,7 @@ export default function Contact() {
     if (!name || !phone || !msg)
       return setErr("Please fill in your name, phone number and message.")
     setErr("")
-    window.open(waLink(`Hello DC Solar, I am ${name} (${phone}).\n${msg}`), "_blank", "noopener")
+    window.open(waLink(`Hello DC Power, I am ${name} (${phone}).\n${msg}`), "_blank", "noopener")
   }
   return (
     <div className="wrap pad two">

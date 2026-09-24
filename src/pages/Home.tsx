@@ -22,7 +22,7 @@ export default function Home() {
   useSeo({
     title: "Solar panels, batteries and inverters in Uganda",
     description:
-      "Shop solar panels, lithium batteries, inverters and complete systems in Uganda. Installed by DC Solar and ordered through WhatsApp.",
+      "Shop solar panels, lithium batteries, inverters and complete systems in Uganda. Installed by DC Power and ordered through WhatsApp.",
     path: "/"
   })
   return (
@@ -60,7 +60,7 @@ export default function Home() {
         </div>
       </section>
       <section className="wrap pad why" aria-labelledby="why">
-        <h2 id="why">Why customers choose DC Solar</h2>
+        <h2 id="why">Why customers choose DC Power</h2>
         <div className="why-grid">
           {WHY.map(([t, d], i) => (
             <Reveal key={t} delay={i * 100}>
@@ -85,7 +85,7 @@ export default function Home() {
           </p>
           <a
             className="btn btn-sun"
-            href={waLink("Hello DC Solar, please help me size a solar system.")}
+            href={waLink("Hello DC Power, please help me size a solar system.")}
             target="_blank"
             rel="noopener noreferrer"
           >

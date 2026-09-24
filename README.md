@@ -1,4 +1,4 @@
-# DC Solar Uganda website
+# DC Power Uganda website
 Vite + React + TypeScript. Run: `npm install && npm run dev`. Build: `npm run build`.
 
 **Manage content**: products in `src/data/products.ts`; phone, WhatsApp number, brands in `src/config.ts`; colours/fonts/spacing in `src/styles/tokens.css`.

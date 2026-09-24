@@ -88,7 +88,7 @@ export const PRODUCTS: Product[] = [
   P({
     slug: "solar-street-light-60w",
     name: "60W All-in-One Solar Street Light",
-    brand: "DC Solar",
+    brand: "DC Power",
     category: CATEGORIES[0],
     price: 480000,
     shape: "unit",
@@ -161,7 +161,7 @@ export const PRODUCTS: Product[] = [
   P({
     slug: "commercial-100kwp-rooftop",
     name: "100kWp Rooftop Solar Package",
-    brand: "DC Solar",
+    brand: "DC Power",
     category: CATEGORIES[2],
     price: null,
     shape: "grid",
@@ -179,7 +179,7 @@ export const PRODUCTS: Product[] = [
   P({
     slug: "solar-kit-5kw",
     name: "5kW Home Solar System",
-    brand: "DC Solar",
+    brand: "DC Power",
     category: CATEGORIES[3],
     price: 14900000,
     featured: true,
@@ -198,7 +198,7 @@ export const PRODUCTS: Product[] = [
   P({
     slug: "solar-kit-1kw",
     name: "1kW Starter Solar Kit",
-    brand: "DC Solar",
+    brand: "DC Power",
     category: CATEGORIES[3],
     price: 3200000,
     shape: "box",

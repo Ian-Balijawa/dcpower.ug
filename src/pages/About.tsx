@@ -3,9 +3,9 @@ import { BRANDS } from "../config"
 import { useSeo } from "../hooks/useSeo"
 export default function About() {
   useSeo({
-    title: "About DC Solar",
+    title: "About DC Power",
     description:
-      "DC Solar supplies and installs solar panels, batteries and inverters across Uganda.",
+      "DC Power supplies and installs solar panels, batteries and inverters across Uganda.",
     path: "/about"
   })
   return (
@@ -13,7 +13,7 @@ export default function About() {
       <div className="wrap pad prose">
         <h1>Reliable power, installed by people you can visit</h1>
         <p>
-          DC Solar supplies and installs solar systems for homes, shops, schools and factories
+          DC Power supplies and installs solar systems for homes, shops, schools and factories
           across Uganda. We started with a simple aim: power that does not depend on the grid or on
           a diesel delivery.
         </p>

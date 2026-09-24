@@ -605,6 +605,7 @@ img {
   gap: var(--s2);
   position: sticky;
   top: 80px;
+  width: auto;
 }
 
 label {

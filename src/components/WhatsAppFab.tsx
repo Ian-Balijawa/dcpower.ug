@@ -3,10 +3,10 @@ export default function WhatsAppFab() {
   return (
     <a
       className="fab"
-      href={waLink("Hello DC Solar, I need help choosing a solar system.")}
+      href={waLink("Hello DC Power, I need help choosing a solar system.")}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Chat with DC Solar on WhatsApp"
+      aria-label="Chat with DC Power on WhatsApp"
     >
       <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true">
         <path

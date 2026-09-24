@@ -26,9 +26,9 @@ export default function Header() {
   return (
     <header className="hdr">
       <div className="wrap hdr-in">
-        <Link to="/" className="logo" aria-label="DC Solar Uganda home">
+        <Link to="/" className="logo" aria-label="DC Power Uganda home">
           <span className="logo-sun" aria-hidden="true" />
-          DC Solar
+          DC Power
         </Link>
         <button
           className="menu-btn"

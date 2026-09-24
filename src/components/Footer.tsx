@@ -7,7 +7,7 @@ export default function Footer() {
         <div>
           <p className="logo">
             <span className="logo-sun" aria-hidden="true" />
-            DC Solar
+            DC Power
           </p>
           <p className="small">Solar systems supplied and installed across Uganda.</p>
         </div>

@@ -29,7 +29,7 @@ export default function Hero() {
             </Link>
             <a
               className="btn btn-ghost"
-              href={waLink("Hello DC Solar, I would like a free solar quote.")}
+              href={waLink("Hello DC Power, I would like a free solar quote.")}
               target="_blank"
               rel="noopener noreferrer"
             >
