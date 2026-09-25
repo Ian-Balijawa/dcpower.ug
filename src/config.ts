@@ -1,9 +1,9 @@
 export const SITE = {
   name: "DC Power Uganda",
-  url: "https://dcsolar.ug",
+  url: "https://dcpower.ug",
   whatsapp: "256788713249", // digits only, country code first
   phone: "+256 788 713 249",
-  email: "sales@dcsolar.ug",
+  email: "sales@dcpower.ug",
   address: "Kampala, Uganda",
   hours: "Mon to Sat, 8:00 to 18:00"
 }

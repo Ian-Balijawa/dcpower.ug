@@ -246,7 +246,7 @@ export default function Home() {
               Chat on WhatsApp
             </a>
 
-            <Link className="btn btn-ghost-dark" to="/contact">
+            <Link className="btn" to="/contact">
               Contact us
             </Link>
           </div>

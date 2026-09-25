@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useMemo, useReducer, type ReactNo
 import { bySlug, type Product } from "../data/products"
 type Line = { id: string; qty: number }
 type Act = { t: "add" | "set"; id: string; qty: number } | { t: "rm"; id: string } | { t: "clear" }
-const KEY = "dcsolar-cart"
+const KEY = "dcpower-cart"
 const clamp = (n: number) => Math.min(99, Math.max(1, n))
 function reduce(s: Line[], a: Act): Line[] {
   switch (a.t) {

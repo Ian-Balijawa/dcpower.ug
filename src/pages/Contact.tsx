@@ -119,7 +119,7 @@ export default function Contact() {
               <input
                 name="name"
                 autoComplete="name"
-                placeholder="e.g. John Doe"
+                placeholder="Enter your name"
                 required
               />
             </label>
@@ -130,7 +130,7 @@ export default function Contact() {
                 name="phone"
                 type="tel"
                 autoComplete="tel"
-                placeholder="e.g. 0772 123 456"
+                placeholder="Enter your number"
                 required
               />
             </label>

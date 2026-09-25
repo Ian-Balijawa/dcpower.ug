@@ -211,7 +211,7 @@ img {
 .logo-img {
   display: block;
   width: auto;
-  height: 42px;
+  height: 82px;
   max-width: 180px;
 }
 
@@ -1753,3 +1753,4 @@ textarea:focus {
     scroll-behavior: auto;
   }
 }
+
