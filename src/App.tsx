@@ -9,6 +9,7 @@ const ProductDetail = lazy(() => import("./pages/ProductDetail"))
 const Cart = lazy(() => import("./pages/Cart"))
 const About = lazy(() => import("./pages/About"))
 const Contact = lazy(() => import("./pages/Contact"))
+const NotFound = lazy(() => import("./pages/NotFound"))
 export default function App() {
   const { pathname } = useLocation()
   useEffect(() => {
@@ -25,19 +26,12 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Products />} />
+            <Route path="/shop" element={<Products />} />
             <Route path="/products/:slug" element={<ProductDetail />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route
-              path="*"
-              element={
-                <div className="wrap pad">
-                  <h1>Page not found</h1>
-                  <a href="/products">Browse products</a>
-                </div>
-              }
-            />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
       </main>
