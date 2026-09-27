@@ -1697,6 +1697,14 @@ textarea:focus {
     grid-template-columns: 1fr;
   }
 
+  .card-foot{
+    flex-direction: column;
+  }
+
+  .btn.btn-sm{
+    width: 100%;
+  }
+
   .filters label:first-child,
   .filters .btn {
     grid-column: auto;
@@ -1735,6 +1743,17 @@ textarea:focus {
 
   .specs dd {
     text-align: left;
+  }
+}
+
+@media (max-width: 415px) {
+  .grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: var(--s2);
+  }
+
+  .cats {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
