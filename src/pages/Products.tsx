@@ -6,27 +6,32 @@ import { useSeo } from "../hooks/useSeo"
 
 export default function Products() {
   const [sp, setSp] = useSearchParams()
+  
   const q = sp.get("q") ?? "",
     cat = sp.get("cat") ?? "",
     brand = sp.get("brand") ?? "",
     sort = sp.get("sort") ?? "featured",
     max = Number(sp.get("max") ?? 0)
-  useSeo({
-    title: cat || "All solar products",
-    description: `Browse ${cat || "solar panels, batteries, inverters and complete systems"} available in Uganda.`,
-    path: "/products"
-  })
+  
+    useSeo({
+      title: cat || "All solar products",
+      description: `Browse ${cat || "solar panels, batteries, inverters and complete systems"} available in Uganda.`,
+      path: "/products"
+    })
+  
   const upd = (k: string, v: string) => {
     const n = new URLSearchParams(sp)
     v ? n.set(k, v) : n.delete(k)
     setSp(n, { replace: true })
   }
+  
   let list = search(q).filter(
     (p) =>
       (!cat || p.category === cat) &&
       (!brand || p.brand === brand) &&
       (!max || (p.price ?? Infinity) <= max)
   )
+  
   list = [...list].sort((a, b) =>
     sort === "low"
       ? (a.price ?? 1e12) - (b.price ?? 1e12)
@@ -34,6 +39,7 @@ export default function Products() {
         ? (b.price ?? 0) - (a.price ?? 0)
         : Number(!!b.featured) - Number(!!a.featured)
   )
+
   return (
     <div className="wrap pad">
       <h1>{q ? `Results for "${q}"` : cat || "All products"}</h1>

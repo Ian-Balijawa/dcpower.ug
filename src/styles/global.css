@@ -1484,8 +1484,8 @@ textarea:focus {
 /* quantity stepper */
 .qty {
   display: inline-flex;
-  border: 1px solid #93a4b3;
-  border-radius: var(--r-btn);
+  /* border: 1px solid #93a4b3; */
+  /* border-radius: var(--r-btn); */
   background: #fff;
 }
 

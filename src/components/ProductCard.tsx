@@ -2,8 +2,11 @@ import { Link } from "react-router-dom"
 import { useCart } from "../context/CartContext"
 import type { Product } from "../data/products"
 import { ugx } from "../lib/format"
+
 export default function ProductCard({ p }: { p: Product }) {
-  const { add } = useCart()
+  const { add, getQty } = useCart()
+  const order_count = getQty(p.slug)
+
   return (
     <article className="card">
       <Link to={`/products/${p.slug}`} className="card-img">
@@ -22,7 +25,7 @@ export default function ProductCard({ p }: { p: Product }) {
             onClick={() => add(p.id)}
             aria-label={`Add ${p.name} to cart`}
           >
-            Add to cart
+            Add to cart ({order_count})
           </button>
         </div>
       </div>

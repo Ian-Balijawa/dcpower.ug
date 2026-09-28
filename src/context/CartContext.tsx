@@ -1,9 +1,14 @@
 import { createContext, useContext, useEffect, useMemo, useReducer, type ReactNode } from "react"
 import { bySlug, type Product } from "../data/products"
+
 type Line = { id: string; qty: number }
+
 type Act = { t: "add" | "set"; id: string; qty: number } | { t: "rm"; id: string } | { t: "clear" }
+
 const KEY = "dcpower-cart"
+
 const clamp = (n: number) => Math.min(99, Math.max(1, n))
+
 function reduce(s: Line[], a: Act): Line[] {
   switch (a.t) {
     case "add":
@@ -18,6 +23,7 @@ function reduce(s: Line[], a: Act): Line[] {
       return []
   }
 }
+
 const load = (): Line[] => {
   try {
     return JSON.parse(localStorage.getItem(KEY) ?? "[]")
@@ -25,16 +31,20 @@ const load = (): Line[] => {
     return []
   }
 }
+
 interface Ctx {
   lines: { product: Product; qty: number }[]
   count: number
   total: number
   add: (id: string, qty?: number) => void
   setQty: (id: string, qty: number) => void
+  getQty: (id: string) => number
   remove: (id: string) => void
   clear: () => void
 }
-const C = createContext<Ctx | null>(null)
+
+const Context = createContext<Ctx | null>(null)
+
 export function CartProvider({ children }: { children: ReactNode }) {
   const [s, d] = useReducer(reduce, [], load)
   useEffect(() => {
@@ -51,18 +61,25 @@ export function CartProvider({ children }: { children: ReactNode }) {
     })
     return {
       lines,
-      count: lines.reduce((n, l) => n + l.qty, 0),
+      // count: lines.reduce((n, l) => n + l.qty, 0),
+      count: lines.length,
       total: lines.reduce((n, l) => n + (l.product.price ?? 0) * l.qty, 0),
-      add: (id, qty = 1) => d({ t: "add", id, qty }),
+      add: (id, qty = 1) => {
+        if (lines.some(l => l.product.id === id))
+          return;
+        return d({ t: "add", id, qty })
+      },
       setQty: (id, qty) => d({ t: "set", id, qty }),
+      getQty: (id) => lines.find(l => l.product.slug === id)?.qty || 0,
       remove: (id) => d({ t: "rm", id }),
       clear: () => d({ t: "clear" })
     }
   }, [s])
-  return <C.Provider value={v}>{children}</C.Provider>
+  return <Context.Provider value={v}>{children}</Context.Provider>
 }
+
 export const useCart = () => {
-  const c = useContext(C)
-  if (!c) throw new Error("CartProvider missing")
-  return c
+  const context = useContext(Context)
+  if (!context) throw new Error("CartProvider missing")
+  return context
 }

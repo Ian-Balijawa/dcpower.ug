@@ -287,7 +287,9 @@ export const PRODUCTS: Product[] = [
 ]
 
 export const brandsOf = () => [...new Set(PRODUCTS.map((p) => p.brand))].sort()
+
 export const bySlug = (s: string) => PRODUCTS.find((p) => p.slug === s)
+
 export const search = (q: string, list = PRODUCTS) => {
   const t = q.toLowerCase().split(/\s+/).filter(Boolean)
   return t.length

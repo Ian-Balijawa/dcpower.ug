@@ -18,8 +18,10 @@ export default function ProductDetail() {
   const [added, setAdded] = useState(false)
   const [zoom, setZoom] = useState<Point | null>(null)
   const [copied, setCopied] = useState(false)
-  const { add } = useCart()
+  const { add, getQty } = useCart()
   const nav = useNavigate()
+
+  const order_count = p ? getQty(p?.slug) : 0;
 
   useEffect(() => {
     setImg(0)
@@ -42,11 +44,11 @@ export default function ProductDetail() {
       image: p.images,
       offers: p.price
         ? {
-            "@type": "Offer",
-            priceCurrency: "UGX",
-            price: p.price,
-            availability: "https://schema.org/InStock"
-          }
+          "@type": "Offer",
+          priceCurrency: "UGX",
+          price: p.price,
+          availability: "https://schema.org/InStock"
+        }
         : undefined
     }
   })
@@ -223,7 +225,7 @@ export default function ProductDetail() {
               Total: <strong>{ugx((p.price ?? 0) * qty)}</strong>
             </p>
           )}
-          
+
           {hasPrice && (
             <button
               className="btn pd-cta"
@@ -232,7 +234,7 @@ export default function ProductDetail() {
                 setAdded(true)
               }}
             >
-              Add to cart
+              Add to cart ({order_count})
             </button>
           )}
           <a

@@ -11,6 +11,7 @@ export default function QtyStepper({
     <div className="qty" role="group" aria-label={`Quantity for ${label}`}>
       <button
         type="button"
+        className="btn-sun"
         onClick={() => onChange(Math.max(1, value - 1))}
         aria-label="Decrease quantity"
         disabled={value <= 1}
@@ -20,6 +21,7 @@ export default function QtyStepper({
       <output aria-live="polite">{value}</output>
       <button
         type="button"
+        className="btn-sun"
         onClick={() => onChange(Math.min(99, value + 1))}
         aria-label="Increase quantity"
       >
