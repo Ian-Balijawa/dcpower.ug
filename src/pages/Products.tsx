@@ -1,111 +1,278 @@
 import { useSearchParams } from "react-router-dom"
 import ProductCard from "../components/ProductCard"
 import Reveal from "../components/Reveal"
-import { brandsOf, CATEGORIES, PRODUCTS, search } from "../data/products"
+import {
+  brandsOf,
+  CATEGORIES,
+  PRODUCTS,
+  search,
+} from "../data/products"
 import { useSeo } from "../hooks/useSeo"
 
 export default function Products() {
   const [sp, setSp] = useSearchParams()
-  
-  const q = sp.get("q") ?? "",
-    cat = sp.get("cat") ?? "",
-    brand = sp.get("brand") ?? "",
-    sort = sp.get("sort") ?? "featured",
-    max = Number(sp.get("max") ?? 0)
-  
-    useSeo({
-      title: cat || "All solar products",
-      description: `Browse ${cat || "solar panels, batteries, inverters and complete systems"} available in Uganda.`,
-      path: "/products"
+
+  const q = sp.get("q") ?? ""
+  const cat = sp.get("cat") ?? ""
+  const brand = sp.get("brand") ?? ""
+  const sort = sp.get("sort") ?? "featured"
+  const max = Number(sp.get("max") ?? 0)
+
+  useSeo({
+    title: cat || "All solar products",
+    description: `Browse ${cat ||
+      "solar panels, batteries, solar lights, inverters and complete solar systems"
+      } available in Uganda.`,
+    path: "/products",
+  })
+
+  const upd = (key: string, value: string) => {
+    const next = new URLSearchParams(sp)
+
+    if (value) {
+      next.set(key, value)
+    } else {
+      next.delete(key)
+    }
+
+    setSp(next, {
+      replace: true,
     })
-  
-  const upd = (k: string, v: string) => {
-    const n = new URLSearchParams(sp)
-    v ? n.set(k, v) : n.delete(k)
-    setSp(n, { replace: true })
   }
-  
-  let list = search(q).filter(
-    (p) =>
-      (!cat || p.category === cat) &&
-      (!brand || p.brand === brand) &&
-      (!max || (p.price ?? Infinity) <= max)
-  )
-  
-  list = [...list].sort((a, b) =>
-    sort === "low"
-      ? (a.price ?? 1e12) - (b.price ?? 1e12)
-      : sort === "high"
-        ? (b.price ?? 0) - (a.price ?? 0)
-        : Number(!!b.featured) - Number(!!a.featured)
-  )
+
+  let list = search(q).filter((p) => {
+    const matchesCategory =
+      !cat || p.category === cat
+
+    const matchesBrand =
+      !brand || p.brand === brand
+
+    const matchesPrice =
+      !max ||
+      p.price === null ||
+      p.price <= max
+
+    return (
+      matchesCategory &&
+      matchesBrand &&
+      matchesPrice
+    )
+  })
+
+  list = [...list].sort((a, b) => {
+    switch (sort) {
+      case "low":
+        if (a.price === null) return 1
+        if (b.price === null) return -1
+
+        return a.price - b.price
+
+      case "high":
+        if (a.price === null) return 1
+        if (b.price === null) return -1
+
+        return b.price - a.price
+
+      case "name":
+        return a.name.localeCompare(b.name)
+
+      case "newest":
+        return Number(!!b.featured) - Number(!!a.featured)
+
+      case "featured":
+      default:
+        return (
+          Number(!!b.featured) -
+          Number(!!a.featured)
+        )
+    }
+  })
 
   return (
     <div className="wrap pad">
-      <h1>{q ? `Results for "${q}"` : cat || "All products"}</h1>
+      <div className="products-heading">
+        <div>
+          <p className="eyebrow">DC Power</p>
+
+          <h1>
+            {q
+              ? `Results for "${q}"`
+              : cat || "All products"}
+          </h1>
+
+          {brand && (
+            <p className="muted">
+              Showing products from{" "}
+              <strong>{brand}</strong>
+            </p>
+          )}
+        </div>
+      </div>
+
       <div className="shop">
-        <form className="filters" aria-label="Filters" onSubmit={(e) => e.preventDefault()}>
+        <form
+          className="filters"
+          aria-label="Product filters"
+          onSubmit={(e) => e.preventDefault()}
+        >
           <label>
             Search
-            <input type="search" value={q} onChange={(e) => upd("q", e.target.value)} />
+            <input
+              type="search"
+              value={q}
+              placeholder="Search products..."
+              onChange={(e) =>
+                upd("q", e.target.value)
+              }
+            />
           </label>
+
           <label>
             Category
-            <select value={cat} onChange={(e) => upd("cat", e.target.value)}>
-              <option value="">All categories</option>
-              {CATEGORIES.map((c) => (
-                <option key={c}>{c}</option>
-              ))}
-            </select>
-          </label>
-          <label>
-            Brand
-            <select value={brand} onChange={(e) => upd("brand", e.target.value)}>
-              <option value="">All brands</option>
-              {brandsOf().map((b) => (
-                <option key={b}>{b}</option>
-              ))}
-            </select>
-          </label>
-          <label>
-            Max price
-            <select value={max || ""} onChange={(e) => upd("max", e.target.value)}>
-              <option value="">Any price</option>
-              {[1000000, 5000000, 15000000].map((n) => (
-                <option key={n} value={n}>
-                  Up to UGX {n.toLocaleString("en-UG")}
+            <select
+              value={cat}
+              onChange={(e) =>
+                upd("cat", e.target.value)
+              }
+            >
+              <option value="">
+                All categories
+              </option>
+
+              {CATEGORIES.map((category) => (
+                <option
+                  key={category}
+                  value={category}
+                >
+                  {category}
                 </option>
               ))}
             </select>
           </label>
+
           <label>
-            Sort by
-            <select value={sort} onChange={(e) => upd("sort", e.target.value)}>
-              <option value="featured">Popular</option>
-              <option value="low">Price, low to high</option>
-              <option value="high">Price, high to low</option>
+            Brand
+            <select
+              value={brand}
+              onChange={(e) =>
+                upd("brand", e.target.value)
+              }
+            >
+              <option value="">
+                All brands
+              </option>
+
+              {brandsOf().map((brandName) => (
+                <option
+                  key={brandName}
+                  value={brandName}
+                >
+                  {brandName}
+                </option>
+              ))}
             </select>
           </label>
-          <button type="button" className="btn btn-ghost-dark" onClick={() => setSp({})}>
+
+          <label>
+            Max price
+            <select
+              value={max || ""}
+              onChange={(e) =>
+                upd("max", e.target.value)
+              }
+            >
+              <option value="">
+                Any price
+              </option>
+
+              {[500000, 1000000, 5000000, 15000000].map(
+                (amount) => (
+                  <option
+                    key={amount}
+                    value={amount}
+                  >
+                    Up to UGX{" "}
+                    {amount.toLocaleString("en-UG")}
+                  </option>
+                )
+              )}
+            </select>
+          </label>
+
+          <label>
+            Sort by
+            <select
+              value={sort}
+              onChange={(e) =>
+                upd("sort", e.target.value)
+              }
+            >
+              <option value="featured">
+                Featured
+              </option>
+
+              <option value="low">
+                Price, low to high
+              </option>
+
+              <option value="high">
+                Price, high to low
+              </option>
+
+              <option value="name">
+                Name, A–Z
+              </option>
+            </select>
+          </label>
+
+          <button
+            type="button"
+            className="btn btn-ghost-dark"
+            onClick={() => setSp({})}
+          >
             Clear filters
           </button>
         </form>
+
         <div>
-          <p className="muted" role="status">
+          <p
+            className="muted"
+            role="status"
+            aria-live="polite"
+          >
             {list.length} of {PRODUCTS.length} products
           </p>
-          {list.length ? (
+
+          {list.length > 0 ? (
             <div className="grid">
-              {list.map((p, i) => (
-                <Reveal key={p.id} delay={(i % 3) * 70}>
-                  <ProductCard p={p} />
+              {list.map((product, index) => (
+                <Reveal
+                  key={product.id}
+                  delay={(index % 3) * 70}
+                >
+                  <ProductCard p={product} />
                 </Reveal>
               ))}
             </div>
           ) : (
-            <p>
-              No products match. Try removing a filter, or ask us on WhatsApp if we can source it.
-            </p>
+            <div className="empty-state">
+              <h2>No products found</h2>
+
+              <p>
+                No products match your current filters.
+                Try removing a filter, changing your
+                search, or ask us on WhatsApp if we can
+                source what you need.
+              </p>
+
+              <button
+                type="button"
+                className="btn btn-ghost-dark"
+                onClick={() => setSp({})}
+              >
+                Clear filters
+              </button>
+            </div>
           )}
         </div>
       </div>
