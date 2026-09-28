@@ -150,7 +150,10 @@ export const PRODUCTS: Product[] = [
       },
     ],
 
-    images: [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/03/Blue-Carbon-36W-3600-Lumen-LED-Solar-Street-Light-King-Light-2.0-1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/03/Blue-Carbon-36W-3600-Lumen-LED-Solar-Street-Light-King-Light-2.0.png",
+    ],
   },
 
   {
@@ -350,7 +353,10 @@ export const PRODUCTS: Product[] = [
           "Request today. Save gradually. Complete payment and receive after full payment.",
       },
     ],
-    images: [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/03/Blue-Carbon-WaWa-Light-6.0-Solar-Flood-Light-BCT-WW6.0.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/Kweli-Energy-900Wp-2.5kWh-1.5kVA-Complete-Hybrid-Solar-Power-System.png"
+    ],
   },
 
   {
