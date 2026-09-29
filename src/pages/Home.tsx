@@ -256,6 +256,9 @@ export default function Home() {
             <a href={`tel:${SITE.phone.replace(/\s/g, "")}`}>
               {SITE.phone}
             </a>
+            <a href={`tel:${SITE.otherPhone.replace(/\s/g, "")}`}>
+              {SITE.otherPhone}
+            </a>
           </p>
         </div>
       </section>

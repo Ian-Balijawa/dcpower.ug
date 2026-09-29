@@ -52,12 +52,9 @@ export const PRODUCTS: Product[] = [
       "Blue Carbon 56W 5,800-Lumen LED Solar Street Light, Solar King Light 2.0",
     brand: "Blue Carbon",
     category: "Solar Street Lights",
-
     price: 690000,
     oldPrice: 770000,
-
     sku: "45515",
-
     stock: {
       status: "in_stock",
     },
@@ -253,9 +250,9 @@ export const PRODUCTS: Product[] = [
       },
     ],
     images: [
-      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/01/Bluecarbon-50W-5400-Lumen-LED-Solar-Street-Light-1-100x100.png",
-      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/01/Bluecarbon-50W-5400-Lumen-LED-Solar-Street-Light-2-100x100.png",
-      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/01/Bluecarbon-50W-5400-Lumen-LED-Solar-Street-Light-3-100x100.png",
+      "/images/products/Blue-Carbon-36W-3600-Lumen-LED-Solar-Street-Light-King-Light-2.0-1.webp",
+      "/images/products/Blue-Carbon-50W-5400-Lumen-LED-Solar-Street-Light-2-100x100.png",
+      "/images/products/Blue-Carbon-50W-5400-Lumen-LED-Solar-Street-Light-3-100x100.png",
     ],
   },
   {

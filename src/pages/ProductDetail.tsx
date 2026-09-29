@@ -36,6 +36,8 @@ export default function ProductDetail() {
     window.scrollTo(0, 0)
   }, [slug])
 
+  console.log("img:", img, p?.images[img])
+
   useSeo({
     title: p?.name ?? "Product not found",
     description: p?.summary ?? "This product is not available.",
@@ -342,8 +344,8 @@ export default function ProductDetail() {
           <p className="pd-stock">
             <span
               className={`dot ${stockStatus === "out_of_stock"
-                  ? "dot--out"
-                  : ""
+                ? "dot--out"
+                : ""
                 } `}
               aria-hidden="true"
             />

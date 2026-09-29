@@ -37,6 +37,10 @@ export default function Footer() {
             {SITE.phone}
           </a>
           <br />
+          <a href={`tel:${SITE.otherPhone.replace(/\s/g, "")}`}>
+            {SITE.otherPhone}
+          </a>
+          <br />
           <a href={`mailto:${SITE.email}`}>
             {SITE.email}
           </a>
