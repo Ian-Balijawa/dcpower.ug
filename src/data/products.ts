@@ -152,109 +152,6 @@ export const PRODUCTS: Product[] = [
       "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/03/Blue-Carbon-36W-3600-Lumen-LED-Solar-Street-Light-King-Light-2.0.png",
     ],
   },
-
-  {
-    id: "blue-carbon-50w-crossbow-2",
-    slug: "blue-carbon-50w-crossbow-2",
-    name:
-      "Blue Carbon 50W 5,400-Lumen LED Solar Street Light, Crossbow Light 2.0",
-    brand: "Blue Carbon",
-    category: "Solar Street Lights",
-    price: 590000,
-    oldPrice: 750000,
-    sku: "47246",
-    stock: {
-      status: "in_stock",
-    },
-    summary: "50W integrated solar street light producing 5,400 lumens with a 105W monocrystalline panel, 70Ah LiFePO₄ battery and remote-controlled intelligent lighting.",
-    description: "The Blue Carbon Crossbow Light 2.0 BCT-OLC2.0-B is an integrated LED solar street light designed for outdoor roads, estates, compounds, parks and public spaces. It provides automatic dusk-to-dawn operation without grid electricity.",
-    features: [
-      "50W LED solar street light",
-      "5,400 lumens light output",
-      "105W monocrystalline solar panel",
-      "3.2V / 70Ah LiFePO₄ battery",
-      "Automatic dusk-to-dawn operation",
-      "Intelligent power control",
-      "Remote control for brightness and working modes",
-      "IP65 dust and water resistance",
-      "100,000-hour lamp life",
-      "Adjustable solar panel angle",
-      "Aluminium alloy body",
-      "Low-voltage system design",
-      "No grid electricity required",
-      "Integrated modular design",
-    ],
-    specs: [
-      ["Series", "Crossbow Light 2.0"],
-      ["Model", "BCT-OLC2.0-B"],
-      ["Product Type", "Integrated LED solar street light"],
-      ["Rated LED Power", "50 W"],
-      ["Light Output", "5,400 lumens"],
-      ["Light Source", "50W LED"],
-      ["Colour Temperature", "6,500 K / 4,000 K"],
-      ["Lamp Life", "100,000 hours"],
-      ["Lighting Control", "Intelligent power control"],
-      ["Operation", "Automatic dusk-to-dawn"],
-      ["Working Modes", "Adjustable by remote control"],
-      ["Solar Panel", "105 W monocrystalline"],
-      ["Solar Panel Voltage", "5 V"],
-      ["Battery Type", "LiFePO₄ lithium battery"],
-      ["Battery Rating", "3.2 V / 70 Ah ±5 Ah"],
-      ["Charging Method", "Solar charging"],
-      ["Grid Electricity", "Not required"],
-      ["Recommended Installation Height", "8 – 9 m"],
-      ["Recommended Installation Distance", "30 – 35 m"],
-      ["Solar Panel Angle", "Adjustable"],
-      ["Housing", "Aluminium alloy body"],
-      ["Protection Rating", "IP65"],
-      ["System Voltage", "Low-voltage design"],
-      ["Warranty", "12 months"],
-    ],
-    applications: [
-      "Outdoor roads",
-      "Estates",
-      "Residential compounds",
-      "Parks",
-      "Public spaces",
-      "Road and compound lighting",
-    ],
-    installation: [
-      "Straight pole installation",
-      "Holding pole installation",
-      "Wall-mounted installation",
-      "Recommended installation height: 8 – 9 m",
-      "Recommended installation distance: 30 – 35 m",
-      "Adjustable solar panel angle",
-    ],
-    warranty: "12 Months Warranty",
-    support: "Lifetime After-Sales Support",
-    paymentOptions: [
-      {
-        name: "Kweli Smart Instalments – 6 payments",
-        description:
-          "Apply today. Get approved. Pay consistently. Receive after 4 instalments. Clear balance slowly.",
-        payments: 6,
-        amountPerPayment: 98333,
-      },
-      {
-        name: "Kweli Smart Instalments – 10 payments",
-        description:
-          "Apply today. Get approved. Pay consistently. Receive after 7 instalments. Clear balance slowly.",
-        payments: 10,
-        amountPerPayment: 59000,
-      },
-      {
-        name: "Kweli Save",
-        description:
-          "Request today. Save gradually. Complete payment and receive after full payment.",
-      },
-    ],
-    images: [
-      "/images/products/Blue-Carbon-36W-3600-Lumen-LED-Solar-Street-Light-King-Light-2.0-1.webp",
-      "/images/products/Blue-Carbon-50W-5400-Lumen-LED-Solar-Street-Light-2-100x100.png",
-      "/images/products/Blue-Carbon-50W-5400-Lumen-LED-Solar-Street-Light-3-100x100.png",
-    ],
-  },
   {
     id: "blue-carbon-wawa-light-6",
     slug: "blue-carbon-wawa-light-6",
@@ -355,7 +252,6 @@ export const PRODUCTS: Product[] = [
       "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/Kweli-Energy-900Wp-2.5kWh-1.5kVA-Complete-Hybrid-Solar-Power-System.png"
     ],
   },
-
   {
     id: "jinko-725w-tiger-neo-jkm725n-66hl5-bdv",
     slug: "jinko-725w-tiger-neo-jkm725n-66hl5-bdv",
@@ -446,7 +342,6 @@ export const PRODUCTS: Product[] = [
       "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/09/Jinko-725W-Tiger-Neo-N-Type-TOPCon-Bifacial-Dual-Glass-Solar-Panel-JKM725N-66HL5-BDV.png",
     ],
   },
-
   {
     id: "jinko-620wp-n-type-jkm620n-66hl4m-v",
     slug: "jinko-620wp-n-type-jkm620n-66hl4m-v",
