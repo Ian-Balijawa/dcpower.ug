@@ -1004,50 +1004,120 @@ export const PRODUCTS: Product[] = [
       "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/06/Chloride-200W-12V-Monochrystalline-Solar-Panel-SP200CE.png",
     ],
   },
+  {
+    id: "felicity-500ah-51-2v-25kwh-fla48500",
+    slug: "felicity-500ah-51-2v-25kwh-fla48500",
+    name:
+      "Felicity 500Ah 51.2V 25kWh Lithium Solar Battery FLA48500",
+    brand: "Felicity Solar",
+    category: "Batteries & Energy Storage",
+    price: 12900000,
+    oldPrice: 16000000,
+    sku: "45277",
+
+    stock: {
+      status: "in_stock",
+    },
+
+    featured: true,
+
+    summary:
+      "Felicity Solar FLA48500 25kWh rack-mount LiFePO₄ solar battery with 500Ah capacity, 51.2V nominal voltage, built-in BMS, over 6,000 cycles at 80% DoD and a 7-year warranty.",
+
+    description:
+      "The Felicity Solar FLA48500 is a high-capacity 25kWh rack-mount lithium solar battery designed for solar energy storage, backup power and hybrid or off-grid inverter systems. Built with LiFePO₄ battery chemistry and an integrated battery management system, it provides long cycle life, modular rack-mounted installation and protection against overcharge, overdischarge, overcurrent, short circuit and temperature-related conditions.",
+
+    features: [
+      "25kWh nominal energy capacity",
+      "500Ah rated battery capacity",
+      "51.2V nominal voltage",
+      "LiFePO₄ (Lithium Iron Phosphate) battery chemistry",
+      "Over 6,000 cycles at 80% depth of discharge",
+      "10+ year design life",
+      "Built-in battery management system (BMS)",
+      "Protection against overcharge and overdischarge",
+      "Overcurrent and short-circuit protection",
+      "Temperature protection",
+      "Rack-mountable configuration",
+      "RS485 and CAN communication ports",
+      "Typically supports 100A–200A maximum charge/discharge current",
+      "Compatible with many hybrid and off-grid inverter systems",
+      "Designed for solar energy storage and backup power",
+      "Modular installation for scalable energy storage systems",
+    ],
+
+    specs: [
+      ["Battery Type", "Lithium Iron Phosphate (LiFePO₄)"],
+      ["Nominal Energy Capacity", "25 kWh"],
+      ["Nominal Voltage", "51.2 V"],
+      ["Rated Capacity", "500 Ah"],
+      ["Cycle Life", ">6,000 cycles @ 80% DoD"],
+      ["Design Life", "10 years+"],
+      ["Configuration", "Rack-mount"],
+      ["Communication Ports", "RS485 / CAN"],
+      ["Max Charge/Discharge Current", "Typically 100A–200A (check datasheet)"],
+      ["Operating Temperature", "–20 °C to +55 °C"],
+      ["Storage Temperature", "–20 °C to +45 °C"],
+      [
+        "Protection",
+        "Built-in BMS for overcharge, overdischarge, overcurrent, short circuit and temperature protection",
+      ],
+      ["Warranty", "7 years"],
+    ],
+
+    applications: [
+      "Residential solar energy storage",
+      "Solar backup power systems",
+      "Hybrid solar systems",
+      "Off-grid solar systems",
+      "Commercial energy storage",
+      "Backup power for businesses",
+      "Large-scale battery storage installations",
+    ],
+
+    installation: [
+      "Designed for rack-mounted installation",
+      "Install in a suitable battery rack or enclosure with adequate ventilation and protection",
+      "Connect using compatible inverter and battery communication interfaces",
+      "Configure the inverter according to the battery manufacturer's specifications",
+      "Use RS485 or CAN communication where supported by the compatible inverter",
+      "Professional installation is recommended for high-capacity battery systems",
+    ],
+
+    warranty: "7 Years Warranty",
+
+    support: "Lifetime After-Sales Support",
+
+    paymentOptions: [
+      {
+        name: "Kweli Advance",
+        description:
+          "Apply today. Get approved. Pay deposit. Receive in 2–7 days. Clear balance slowly.",
+        amountPerPayment: 9030000,
+      },
+      {
+        name: "Kweli Smart Instalments – 6 payments",
+        description:
+          "Apply today. Get approved. Pay consistently. Receive after 4 instalments. Clear balance slowly.",
+        payments: 6,
+        amountPerPayment: 2150000,
+      },
+      {
+        name: "Kweli Smart Instalments – 10 payments",
+        description:
+          "Apply today. Get approved. Pay consistently. Receive after 7 instalments. Clear balance slowly.",
+        payments: 10,
+        amountPerPayment: 1290000,
+      },
+      {
+        name: "Kweli Save",
+        description:
+          "Request today. Save gradually. Complete payment and receive after full payment.",
+      },
+    ],
+
+    images: [
+      // Add the Felicity FLA48500 image URLs here
+    ],
+  },
 ]
-
-export const brandsOf = () =>
-  [...new Set(PRODUCTS.map((p) => p.brand))].sort()
-
-export const bySlug = (s: string) =>
-  PRODUCTS.find((p) => p.slug === s)
-
-export const search = (q: string, list = PRODUCTS) => {
-  const t = q.toLowerCase().split(/\s+/).filter(Boolean)
-
-  return t.length
-    ? list.filter((p) =>
-      t.every((w) =>
-        [
-          p.name,
-          p.brand,
-          p.category,
-          p.summary,
-          p.description,
-          p.sku,
-          ...(p.features ?? []),
-          ...(p.specs ?? []).flat(),
-          ...(p.applications ?? []),
-        ]
-          .filter(Boolean)
-          .join(" ")
-          .toLowerCase()
-          .includes(w)
-      )
-    )
-    : list
-}
-
-export const similar = (p: Product, n = 4) =>
-  PRODUCTS
-    .filter((x) => x.id !== p.id)
-    .map((x) => ({
-      x,
-      s:
-        (x.category === p.category ? 2 : 0) +
-        (x.brand === p.brand ? 1 : 0),
-    }))
-    .filter((r) => r.s > 0)
-    .sort((a, b) => b.s - a.s)
-    .slice(0, n)
-    .map((r) => r.x)

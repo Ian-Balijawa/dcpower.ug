@@ -3,10 +3,10 @@ import { Link, useNavigate, useParams } from "react-router-dom"
 import ProductCard from "../components/ProductCard"
 import QtyStepper from "../components/QtyStepper"
 import { useCart } from "../context/CartContext"
-import { bySlug, similar } from "../data/products"
 import { useSeo } from "../hooks/useSeo"
 import { ugx } from "../lib/format"
 import { orderLink } from "../lib/whatsapp"
+import { bySlug, similar } from "../lib/helpers"
 
 type Point = {
   x: number

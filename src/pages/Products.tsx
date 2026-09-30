@@ -2,12 +2,11 @@ import { useSearchParams } from "react-router-dom"
 import ProductCard from "../components/ProductCard"
 import Reveal from "../components/Reveal"
 import {
-  brandsOf,
   CATEGORIES,
   PRODUCTS,
-  search,
 } from "../data/products"
 import { useSeo } from "../hooks/useSeo"
+import { search, brandsOf } from "../lib/helpers"
 
 export default function Products() {
   const [sp, setSp] = useSearchParams()

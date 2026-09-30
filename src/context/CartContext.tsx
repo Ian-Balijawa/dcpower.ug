@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useMemo, useReducer, type ReactNode } from "react"
-import { bySlug, type Product } from "../data/products"
+import { type Product } from "../data/products"
+import { bySlug } from "../lib/helpers";
 
 type Line = { id: string; qty: number }
 

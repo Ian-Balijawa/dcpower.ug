@@ -1,7 +1,7 @@
 import { useEffect, useId, useState, type FormEvent } from "react"
 import { Link, NavLink, useNavigate } from "react-router-dom"
 import { useCart } from "../context/CartContext"
-import { search } from "../data/products"
+import { search } from "../lib/helpers"
 
 export default function Header() {
   const [q, setQ] = useState("")
