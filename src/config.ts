@@ -5,7 +5,7 @@ export const SITE = {
   phone: "+256 788 713 249",
   otherPhone: "+256 705 280 864",
   // email: "sales@dcpower.ug",
-  email: "brmeservicez@gmail.com",
+  email: "brythomeservicez@gmail.com",
   address: "Wandegeya at Veperse Tower, Shop number B55",
   hours: "Mon to Sat, 8:00 to 18:00"
 }
