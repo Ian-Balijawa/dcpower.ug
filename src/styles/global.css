@@ -1160,8 +1160,9 @@ textarea:focus {
   margin-bottom: var(--s4);
 }
 
-/* gallery */
+/* Product detail gallery */
 .pd-gallery {
+  min-width: 0;
   display: grid;
   grid-template-columns: 80px minmax(0, 1fr);
   grid-template-areas: "thumbs main";
@@ -1169,27 +1170,31 @@ textarea:focus {
   align-items: start;
 }
 
-.pd-gallery:not(:has(.pd-thumbs)) {
-  grid-template-columns: minmax(0, 1fr);
-  grid-template-areas: "main";
-}
-
 .pd-stage {
   grid-area: main;
   position: relative;
+  width: 100%;
+  min-width: 0;
   overflow: hidden;
   border-radius: var(--r-card);
   background: var(--sky);
   border: 1px solid var(--line);
+
+  /* Gives the image a reliable area to render inside */
+  aspect-ratio: 5 / 4;
 }
 
 .pd-main {
+  display: block;
   width: 100%;
-  aspect-ratio: 5 / 4;
+  height: 100%;
+  max-width: none;
   object-fit: contain;
+  object-position: center;
   transition: transform 0.2s ease;
 }
 
+/* Zoom */
 @media (hover: hover) {
   .pd-stage {
     cursor: zoom-in;
@@ -1200,21 +1205,38 @@ textarea:focus {
   }
 }
 
+/* Empty gallery */
+.pd-stage--empty {
+  display: grid;
+  place-items: center;
+  min-height: 280px;
+  padding: var(--s3);
+  text-align: center;
+}
+
+/* Arrows */
 .pd-arrow {
   position: absolute;
   top: 50%;
   translate: 0 -50%;
+  z-index: 2;
+
   width: 2.5rem;
   height: 2.5rem;
+
   border: 1px solid var(--line);
   border-radius: 50%;
+
   background: #fff;
   color: var(--ink);
+
   font-size: 1.5rem;
   line-height: 1;
+
   cursor: pointer;
+
   opacity: 0;
-  transition: opacity 0.15s;
+  transition: opacity 0.15s ease;
 }
 
 .pd-stage:hover .pd-arrow,
@@ -1236,32 +1258,48 @@ textarea:focus {
   right: var(--s1);
 }
 
+/* Image counter */
 .pd-count {
   position: absolute;
   right: var(--s1);
   bottom: var(--s1);
+  z-index: 2;
+
   padding: 0.15rem 0.6rem;
+
   border-radius: 99px;
   background: rgba(7, 28, 49, 0.75);
   color: #fff;
 }
 
+/* Thumbnails */
 .pd-thumbs {
   grid-area: thumbs;
+
   display: grid;
   gap: var(--s1);
+
   list-style: none;
   padding: 0;
   margin: 0;
+
+  min-width: 0;
+}
+
+.pd-thumbs li {
+  min-width: 0;
 }
 
 .pd-thumbs button {
   display: block;
   width: 100%;
   padding: 0;
+
   border: 2px solid var(--line);
   border-radius: 8px;
+
   overflow: hidden;
+
   background: var(--sky);
   cursor: pointer;
 }
@@ -1275,7 +1313,9 @@ textarea:focus {
 }
 
 .pd-thumbs img {
+  display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 5 / 4;
   object-fit: cover;
 }

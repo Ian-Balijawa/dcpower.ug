@@ -174,7 +174,7 @@ export default function ProductDetail() {
           {hasImages ? (
             <>
               <div
-                className={`pd - stage${zoom ? " is-zoomed" : ""} `}
+                className={`pd-stage${zoom ? " is-zoomed" : ""} `}
                 onPointerMove={onMove}
                 onPointerLeave={() => setZoom(null)}
               >
