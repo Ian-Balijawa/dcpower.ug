@@ -5,7 +5,7 @@ export default function NotFound() {
     const nv = useNavigate()
 
     useEffect(() => {
-        nv("/")
+        nv("/products")
     }, [])
 
     return (
