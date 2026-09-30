@@ -9,7 +9,7 @@ export default function NotFound() {
     }, [])
 
     return (
-        < div className="wrap pad" >
+        <div className="wrap pad" >
             <h1>Page not found</h1>
             <a href="/products">Browse products</a>
         </div >

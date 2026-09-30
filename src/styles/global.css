@@ -225,11 +225,8 @@ img {
 
 @media (max-width: 600px) {
   .logo-img {
-    /* height: 36px; */
-    max-width: 150px;
-
-     height: 150px;
-  max-width: 250px;
+    height: 36px;
+    max-width: 250px;
   }
 
   .footer-logo .logo-img {
