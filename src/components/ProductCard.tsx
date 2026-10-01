@@ -10,14 +10,20 @@ export default function ProductCard({ p }: { p: Product }) {
   return (
     <article className="card">
       <Link to={`/products/${p.slug}`} className="card-img">
-        <img src={p.images[0]} alt={p.name} loading="lazy" width="400" height="320" />
+        {p.images.length > 0 ? (
+          <img src={p.images[0]} alt={p.name} loading="lazy" width="400" height="320" />
+        ) : (
+          <div className="pd-stage pd-stage--empty" aria-label="Product image unavailable">
+            <span className="muted">Product image coming soon</span>
+          </div>
+        )}
       </Link>
       <div className="card-body">
         <p className="muted small">{p.brand}</p>
         <h3>
-          <Link to={`/products/${p.slug}`}>{p.name}</Link>
+          <Link to={`/products/${p.slug}`}>{p.name.slice(0, 80)}...</Link>
         </h3>
-        <p className="muted small">{p.summary}</p>
+        <p className="muted small">{p.summary.slice(0, 100)}...</p>
         <div className="card-foot">
           <strong className={p.price === null ? "quote" : ""}>{ugx(p.price)}</strong>
           <button
