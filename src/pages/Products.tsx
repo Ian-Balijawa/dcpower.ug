@@ -6,7 +6,6 @@ import { CATEGORIES } from "../data/products"
 import { useSeo } from "../hooks/useSeo"
 import { search, brandsOf } from "../lib/helpers"
 // CSS is processed by the bundler; TypeScript has no declaration for this side-effect import.
-// @ts-expect-error -- the stylesheet is intentionally imported for its side effects.
 import "../styles/products.css"
 
 function FilterIcon() {
