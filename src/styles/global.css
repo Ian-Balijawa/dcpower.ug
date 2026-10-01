@@ -312,8 +312,8 @@ img {
 }
 /* hero */
 .hero {
-  --mx: 70%;
-  --my: 40%;
+  /* --mx: 70%; */
+  /* --my: 40%; */
   background: var(--cell);
   color: #fff;
   overflow: hidden;
@@ -1735,6 +1735,11 @@ textarea:focus {
 }
 
 @media (max-width: 600px) {
+
+  .hero-in {
+    min-height: min(84vh, 620px);
+  }
+
   .filters {
     grid-template-columns: 1fr;
   }
