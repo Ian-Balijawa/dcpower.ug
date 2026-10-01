@@ -56,7 +56,7 @@ export default function Home() {
     <>
       <Hero />
 
-      <Marquee items={PRODUCTS.map((p) => p.name)} />
+      <Marquee items={PRODUCTS.slice(0, 10).map((p) => p.name)} />
 
       <section className="wrap pad home-intro" aria-labelledby="intro-title">
         <div className="home-intro-copy prose">
