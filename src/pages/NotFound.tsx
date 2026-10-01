@@ -2,16 +2,16 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function NotFound() {
-    const nv = useNavigate()
+  const nv = useNavigate()
 
-    useEffect(() => {
-        nv("/products")
-    }, [])
+  useEffect(() => {
+    nv("/products")
+  }, [])
 
-    return (
-        <div className="wrap pad" >
-            <h1>Page not found</h1>
-            <a href="/products">Browse products</a>
-        </div >
-    )
+  return (
+    <div className="wrap pad" >
+      <h1>Page not found</h1>
+      <a href="/products">Browse products</a>
+    </div >
+  )
 }
