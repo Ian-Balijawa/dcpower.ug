@@ -1018,6 +1018,8 @@ img {
 .quote {
   color: var(--lake);
 }
+
+
 /* shop */
 .shop {
   display: grid;
