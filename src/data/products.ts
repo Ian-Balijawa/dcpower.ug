@@ -127,21 +127,21 @@ export const PRODUCTS: Product[] = [
     support: "Lifetime After-Sales Support",
     paymentOptions: [
       {
-        name: "Kweli Smart Instalments – 6 payments",
+        name: "DC Power UG Smart Instalments – 6 payments",
         description:
           "Apply today. Get approved. Pay consistently. Receive after 4 instalments. Clear balance slowly.",
         payments: 6,
         amountPerPayment: 115000,
       },
       {
-        name: "Kweli Smart Instalments – 10 payments",
+        name: "DC Power UG Smart Instalments – 10 payments",
         description:
           "Apply today. Get approved. Pay consistently. Receive after 7 instalments. Clear balance slowly.",
         payments: 10,
         amountPerPayment: 69000,
       },
       {
-        name: "Kweli Save",
+        name: "DC Power UG Save",
         description:
           "Request today. Save gradually. Complete payment and receive after full payment.",
       },
@@ -228,28 +228,28 @@ export const PRODUCTS: Product[] = [
     support: "Lifetime After-Sales Support",
     paymentOptions: [
       {
-        name: "Kweli Smart Instalments – 6 payments",
+        name: "DC Power UG Smart Instalments – 6 payments",
         description:
           "Apply today. Get approved. Pay consistently. Receive after 4 instalments. Clear balance slowly.",
         payments: 6,
         amountPerPayment: 98333,
       },
       {
-        name: "Kweli Smart Instalments – 10 payments",
+        name: "DC Power UG Smart Instalments – 10 payments",
         description:
           "Apply today. Get approved. Pay consistently. Receive after 7 instalments. Clear balance slowly.",
         payments: 10,
         amountPerPayment: 59000,
       },
       {
-        name: "Kweli Save",
+        name: "DC Power UG Save",
         description:
           "Request today. Save gradually. Complete payment and receive after full payment.",
       },
     ],
     images: [
       "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/03/Blue-Carbon-WaWa-Light-6.0-Solar-Flood-Light-BCT-WW6.0.png",
-      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/Kweli-Energy-900Wp-2.5kWh-1.5kVA-Complete-Hybrid-Solar-Power-System.png"
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/DC Power UG-Energy-900Wp-2.5kWh-1.5kVA-Complete-Hybrid-Solar-Power-System.png"
     ],
   },
   {
@@ -414,27 +414,27 @@ export const PRODUCTS: Product[] = [
     support: "Lifetime After-Sales Support",
     paymentOptions: [
       {
-        name: "Kweli Advance",
+        name: "DC Power UG Advance",
         description:
           "Apply today. Get approved. Pay deposit. Receive in 2-7 days. Clear balance slowly.",
         amountPerPayment: 307300,
       },
       {
-        name: "Kweli Smart Instalments – 6 payments",
+        name: "DC Power UG Smart Instalments – 6 payments",
         description:
           "Apply today. Get approved. Pay consistently. Receive after 4 instalments. Clear balance slowly.",
         payments: 6,
         amountPerPayment: 73167,
       },
       {
-        name: "Kweli Smart Instalments – 10 payments",
+        name: "DC Power UG Smart Instalments – 10 payments",
         description:
           "Apply today. Get approved. Pay consistently. Receive after 7 instalments. Clear balance slowly.",
         payments: 10,
         amountPerPayment: 43900,
       },
       {
-        name: "Kweli Save",
+        name: "DC Power UG Save",
         description:
           "Request today. Save gradually. Complete payment and receive after full payment.",
       },
@@ -588,21 +588,21 @@ export const PRODUCTS: Product[] = [
     support: "Lifetime After-Sales Support",
     paymentOptions: [
       {
-        name: "Kweli Smart Instalments – 6 payments",
+        name: "DC Power UG Smart Instalments – 6 payments",
         description:
           "Apply today. Get approved. Pay consistently. Receive after 4 instalments. Clear balance slowly.",
         payments: 6,
         amountPerPayment: 66500,
       },
       {
-        name: "Kweli Smart Instalments – 10 payments",
+        name: "DC Power UG Smart Instalments – 10 payments",
         description:
           "Apply today. Get approved. Pay consistently. Receive after 7 instalments. Clear balance slowly.",
         payments: 10,
         amountPerPayment: 39900,
       },
       {
-        name: "Kweli Save",
+        name: "DC Power UG Save",
         description:
           "Request today. Save gradually. Complete payment and receive after full payment.",
       },
@@ -676,21 +676,21 @@ export const PRODUCTS: Product[] = [
     support: "Lifetime After-Sales Support",
     paymentOptions: [
       {
-        name: "Kweli Smart Instalments – 6 payments",
+        name: "DC Power UG Smart Instalments – 6 payments",
         description:
           "Apply today. Get approved. Pay consistently. Receive after 4 instalments. Clear balance slowly.",
         payments: 6,
         amountPerPayment: 66500,
       },
       {
-        name: "Kweli Smart Instalments – 10 payments",
+        name: "DC Power UG Smart Instalments – 10 payments",
         description:
           "Apply today. Get approved. Pay consistently. Receive after 7 instalments. Clear balance slowly.",
         payments: 10,
         amountPerPayment: 39900,
       },
       {
-        name: "Kweli Save",
+        name: "DC Power UG Save",
         description:
           "Request today. Save gradually. Complete payment and receive after full payment.",
       },
@@ -782,7 +782,7 @@ export const PRODUCTS: Product[] = [
     support: "Lifetime After-Sales Support",
     paymentOptions: [
       {
-        name: "Kweli Save",
+        name: "DC Power UG Save",
         description:
           "Request today. Save gradually. Complete payment and receive after full payment.",
       },
@@ -890,7 +890,7 @@ export const PRODUCTS: Product[] = [
     support: "Lifetime After-Sales Support",
     paymentOptions: [
       {
-        name: "Kweli Save",
+        name: "DC Power UG Save",
         description:
           "Request today. Save gradually. Complete payment and receive after full payment.",
       },
@@ -985,27 +985,27 @@ export const PRODUCTS: Product[] = [
 
     paymentOptions: [
       {
-        name: "Kweli Advance",
+        name: "DC Power UG Advance",
         description:
           "Apply today. Get approved. Pay deposit. Receive in 2–7 days. Clear balance slowly.",
         amountPerPayment: 9030000,
       },
       {
-        name: "Kweli Smart Instalments – 6 payments",
+        name: "DC Power UG Smart Instalments – 6 payments",
         description:
           "Apply today. Get approved. Pay consistently. Receive after 4 instalments. Clear balance slowly.",
         payments: 6,
         amountPerPayment: 2150000,
       },
       {
-        name: "Kweli Smart Instalments – 10 payments",
+        name: "DC Power UG Smart Instalments – 10 payments",
         description:
           "Apply today. Get approved. Pay consistently. Receive after 7 instalments. Clear balance slowly.",
         payments: 10,
         amountPerPayment: 1290000,
       },
       {
-        name: "Kweli Save",
+        name: "DC Power UG Save",
         description:
           "Request today. Save gradually. Complete payment and receive after full payment.",
       },
@@ -1450,7 +1450,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -1483,7 +1483,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -1494,28 +1494,28 @@ export const PRODUCTS: Product[] = [
     "featured": false
   },
   {
-    "id": "kweli-energy-1-8kwp-5kwh-4kva-complete-smart-hybrid-solar-power-system-6-8kwh-daily-yield-wifi-app-monitoring-automatic-switchover-in-uganda",
-    "slug": "kweli-energy-1-8kwp-5kwh-4kva-complete-smart-hybrid-solar-power-system-6-8kwh-daily-yield-wifi-app-monitoring-automatic-switchover-in-uganda",
-    "name": "Kweli Energy 1.8kWp-5kWh-4kVA Complete Smart Hybrid Solar Power System; 6-8kWh Daily Yield, WiFi App Monitoring, Automatic Switchover In Uganda",
-    "brand": "Kweli Energy",
+    "id": "dcpower-energy-1-8kwp-5kwh-4kva-complete-smart-hybrid-solar-power-system-6-8kwh-daily-yield-wifi-app-monitoring-automatic-switchover-in-uganda",
+    "slug": "dcpower-energy-1-8kwp-5kwh-4kva-complete-smart-hybrid-solar-power-system-6-8kwh-daily-yield-wifi-app-monitoring-automatic-switchover-in-uganda",
+    "name": "DC Power UG Energy 1.8kWp-5kWh-4kVA Complete Smart Hybrid Solar Power System; 6-8kWh Daily Yield, WiFi App Monitoring, Automatic Switchover In Uganda",
+    "brand": "DC Power UG Energy",
     "category": "Complete Solar Systems & Kits",
     "price": 0,
     "stock": {
       "status": "pre_order"
     },
-    "summary": "Kweli Energy 1.8kWp-5kWh-4kVA Complete Smart Hybrid Solar Power System; 6-8kWh Daily Yield, WiFi App Monitoring, Automatic Switchover In Uganda",
-    "description": "Kweli Energy 1.8kWp-5kWh-4kVA Complete Smart Hybrid Solar Power System; 6-8kWh Daily Yield, WiFi App Monitoring, Automatic Switchover In Uganda. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.",
+    "summary": "DC Power UG Energy 1.8kWp-5kWh-4kVA Complete Smart Hybrid Solar Power System; 6-8kWh Daily Yield, WiFi App Monitoring, Automatic Switchover In Uganda",
+    "description": "DC Power UG Energy 1.8kWp-5kWh-4kVA Complete Smart Hybrid Solar Power System; 6-8kWh Daily Yield, WiFi App Monitoring, Automatic Switchover In Uganda. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.",
     "features": [
       "6-8kWh Daily Yield, WiFi App Monitoring, Automatic Switchover In Uganda"
     ],
     "specs": [
       [
         "Source title",
-        "Kweli Energy 1.8kWp-5kWh-4kVA Complete Smart Hybrid Solar Power System; 6-8kWh Daily Yield, WiFi App Monitoring, Automatic Switchover In Uganda"
+        "DC Power UG Energy 1.8kWp-5kWh-4kVA Complete Smart Hybrid Solar Power System; 6-8kWh Daily Yield, WiFi App Monitoring, Automatic Switchover In Uganda"
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Homes",
@@ -1527,29 +1527,29 @@ export const PRODUCTS: Product[] = [
     "featured": false
   },
   {
-    "id": "kweli-energy-900wp-2-56kwh-1-5kva-complete-hybrid-solar-power-system-3-5-4-5kwh-daily-yield-automatic-switchover-in-uganda",
-    "slug": "kweli-energy-900wp-2-56kwh-1-5kva-complete-hybrid-solar-power-system-3-5-4-5kwh-daily-yield-automatic-switchover-in-uganda",
-    "name": "Kweli Energy 900Wp-2.56kWh-1.5kVA Complete Hybrid Solar Power System; 3.5-4.5kWh Daily Yield, Automatic Switchover In Uganda",
-    "brand": "Kweli Energy",
+    "id": "dcpower-energy-900wp-2-56kwh-1-5kva-complete-hybrid-solar-power-system-3-5-4-5kwh-daily-yield-automatic-switchover-in-uganda",
+    "slug": "dcpower-energy-900wp-2-56kwh-1-5kva-complete-hybrid-solar-power-system-3-5-4-5kwh-daily-yield-automatic-switchover-in-uganda",
+    "name": "DC Power UG Energy 900Wp-2.56kWh-1.5kVA Complete Hybrid Solar Power System; 3.5-4.5kWh Daily Yield, Automatic Switchover In Uganda",
+    "brand": "DC Power UG Energy",
     "category": "Complete Solar Systems & Kits",
     "price": 5690000,
     "oldPrice": 6400000,
     "stock": {
       "status": "in_stock"
     },
-    "summary": "Kweli Energy 900Wp-2.56kWh-1.5kVA Complete Hybrid Solar Power System; 3.5-4.5kWh Daily Yield, Automatic Switchover In Uganda",
-    "description": "Kweli Energy 900Wp-2.56kWh-1.5kVA Complete Hybrid Solar Power System; 3.5-4.5kWh Daily Yield, Automatic Switchover In Uganda. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.",
+    "summary": "DC Power UG Energy 900Wp-2.56kWh-1.5kVA Complete Hybrid Solar Power System; 3.5-4.5kWh Daily Yield, Automatic Switchover In Uganda",
+    "description": "DC Power UG Energy 900Wp-2.56kWh-1.5kVA Complete Hybrid Solar Power System; 3.5-4.5kWh Daily Yield, Automatic Switchover In Uganda. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.",
     "features": [
       "3.5-4.5kWh Daily Yield, Automatic Switchover In Uganda"
     ],
     "specs": [
       [
         "Source title",
-        "Kweli Energy 900Wp-2.56kWh-1.5kVA Complete Hybrid Solar Power System; 3.5-4.5kWh Daily Yield, Automatic Switchover In Uganda"
+        "DC Power UG Energy 900Wp-2.56kWh-1.5kVA Complete Hybrid Solar Power System; 3.5-4.5kWh Daily Yield, Automatic Switchover In Uganda"
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Homes",
@@ -1561,29 +1561,29 @@ export const PRODUCTS: Product[] = [
     "featured": false
   },
   {
-    "id": "kweli-energy-600wp-2-56kwh-1kw-complete-hybrid-solar-power-system-2-2-3kwh-daily-pv-yield-long-life-lithium-battery-automatic-switchover-in-uganda",
-    "slug": "kweli-energy-600wp-2-56kwh-1kw-complete-hybrid-solar-power-system-2-2-3kwh-daily-pv-yield-long-life-lithium-battery-automatic-switchover-in-uganda",
-    "name": "Kweli Energy 600Wp-2.56kWh-1kW Complete Hybrid Solar Power System; 2.2-3kWh Daily PV Yield, Long-Life Lithium Battery, Automatic Switchover In Uganda",
-    "brand": "Kweli Energy",
+    "id": "dcpower-energy-600wp-2-56kwh-1kw-complete-hybrid-solar-power-system-2-2-3kwh-daily-pv-yield-long-life-lithium-battery-automatic-switchover-in-uganda",
+    "slug": "dcpower-energy-600wp-2-56kwh-1kw-complete-hybrid-solar-power-system-2-2-3kwh-daily-pv-yield-long-life-lithium-battery-automatic-switchover-in-uganda",
+    "name": "DC Power UG Energy 600Wp-2.56kWh-1kW Complete Hybrid Solar Power System; 2.2-3kWh Daily PV Yield, Long-Life Lithium Battery, Automatic Switchover In Uganda",
+    "brand": "DC Power UG Energy",
     "category": "Complete Solar Systems & Kits",
     "price": 4490000,
     "oldPrice": 5300000,
     "stock": {
       "status": "in_stock"
     },
-    "summary": "Kweli Energy 600Wp-2.56kWh-1kW Complete Hybrid Solar Power System; 2.2-3kWh Daily PV Yield, Long-Life Lithium Battery, Automatic Switchover In Uganda",
-    "description": "Kweli Energy 600Wp-2.56kWh-1kW Complete Hybrid Solar Power System; 2.2-3kWh Daily PV Yield, Long-Life Lithium Battery, Automatic Switchover In Uganda. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.",
+    "summary": "DC Power UG Energy 600Wp-2.56kWh-1kW Complete Hybrid Solar Power System; 2.2-3kWh Daily PV Yield, Long-Life Lithium Battery, Automatic Switchover In Uganda",
+    "description": "DC Power UG Energy 600Wp-2.56kWh-1kW Complete Hybrid Solar Power System; 2.2-3kWh Daily PV Yield, Long-Life Lithium Battery, Automatic Switchover In Uganda. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.",
     "features": [
       "2.2-3kWh Daily PV Yield, Long-Life Lithium Battery, Automatic Switchover In Uganda"
     ],
     "specs": [
       [
         "Source title",
-        "Kweli Energy 600Wp-2.56kWh-1kW Complete Hybrid Solar Power System; 2.2-3kWh Daily PV Yield, Long-Life Lithium Battery, Automatic Switchover In Uganda"
+        "DC Power UG Energy 600Wp-2.56kWh-1kW Complete Hybrid Solar Power System; 2.2-3kWh Daily PV Yield, Long-Life Lithium Battery, Automatic Switchover In Uganda"
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -1616,7 +1616,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Homes",
@@ -1654,7 +1654,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -1692,7 +1692,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -1724,7 +1724,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -1756,7 +1756,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -1789,7 +1789,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -1822,7 +1822,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
     "paymentOptions": [],
@@ -1851,7 +1851,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
     "paymentOptions": [],
@@ -1880,7 +1880,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
     "paymentOptions": [],
@@ -1909,7 +1909,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
     "paymentOptions": [],
@@ -1938,7 +1938,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -1971,7 +1971,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -2003,7 +2003,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
     "paymentOptions": [],
@@ -2031,7 +2031,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -2064,7 +2064,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2097,7 +2097,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2130,7 +2130,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2168,7 +2168,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -2201,7 +2201,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2234,7 +2234,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2266,7 +2266,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -2299,7 +2299,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2332,7 +2332,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2364,7 +2364,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -2397,7 +2397,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2430,7 +2430,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -2463,7 +2463,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -2496,7 +2496,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -2529,7 +2529,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2606,7 +2606,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2686,7 +2686,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2758,7 +2758,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2791,7 +2791,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2863,7 +2863,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -2896,7 +2896,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Homes",
@@ -2935,7 +2935,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -3004,7 +3004,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -3080,7 +3080,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -3157,7 +3157,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -3233,7 +3233,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -3271,7 +3271,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -3342,7 +3342,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -3408,7 +3408,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -3480,7 +3480,7 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [],
     "warranty": "1 Year",
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar power systems",
@@ -3548,7 +3548,7 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [],
     "warranty": "10 Years",
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -3623,7 +3623,7 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [],
     "warranty": "10 Years",
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -3634,26 +3634,26 @@ export const PRODUCTS: Product[] = [
     "featured": false
   },
   {
-    "id": "dyness-kweli-shop",
-    "slug": "dyness-kweli-shop",
-    "name": "Dyness - Kweli.shop",
+    "id": "dyness-dcpower-shop",
+    "slug": "dyness-dcpower-shop",
+    "name": "Dyness - DC Power UG.shop",
     "brand": "Dyness",
     "category": "Solar Panels & Lighting",
     "price": 0,
     "stock": {
       "status": "pre_order"
     },
-    "summary": "Dyness - Kweli.shop",
-    "description": "Dyness - Kweli.shop. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.",
+    "summary": "Dyness - DC Power UG.shop",
+    "description": "Dyness - DC Power UG.shop. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.",
     "features": [],
     "specs": [
       [
         "Source title",
-        "Dyness - Kweli.shop"
+        "Dyness - DC Power UG.shop"
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
     "paymentOptions": [],
@@ -3736,7 +3736,7 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [],
     "warranty": "10 Years",
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -3769,7 +3769,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -3856,7 +3856,7 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [],
     "warranty": "10 Years",
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -3943,7 +3943,7 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [],
     "warranty": "10 Years",
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -4030,7 +4030,7 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [],
     "warranty": "10 Years",
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -4117,7 +4117,7 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [],
     "warranty": "10 Years",
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -4204,7 +4204,7 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [],
     "warranty": "10 Years",
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -4234,7 +4234,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4270,7 +4270,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4301,7 +4301,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4332,7 +4332,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4363,7 +4363,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
     "paymentOptions": [],
@@ -4389,7 +4389,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4425,7 +4425,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4456,7 +4456,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4487,7 +4487,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4518,7 +4518,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4549,7 +4549,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4580,7 +4580,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4611,7 +4611,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4642,7 +4642,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4673,7 +4673,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4705,7 +4705,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -4736,7 +4736,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4767,7 +4767,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Solar energy storage",
@@ -4797,7 +4797,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
@@ -4828,7 +4828,7 @@ export const PRODUCTS: Product[] = [
       ]
     ],
     "images": [],
-    "support": "Kweli.shop listing states free delivery and lifetime after-sales support where applicable.",
+    "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
       "Outdoor lighting",
