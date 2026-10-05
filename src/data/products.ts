@@ -1449,7 +1449,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 200Ah 24V 5kWh Lithium Solar Battery FLA24200; Built-in BMS & WiFi, ≥6,000 Cycles, @25°C, 80% DoD, Parallel Up To 75kWh Or 15 Units In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-200AH-24V-5kWh-Lithium-Solar-Battery-FLA24200-1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-200AH-24V-5kWh-Lithium-Solar-Battery-FLA24200-2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-200AH-24V-5kWh-Lithium-Solar-Battery-FLA24200-4.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -1482,7 +1486,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 100AH 48V 5kWh Lithium Solar Battery FLA48100; Built-in BMS, Over 6,000 Charge Cycles @25°C, 80% DoD, Long Lifespan, Fast Charging In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-100AH-48V-5kWh-Lithium-Solar-Battery-FLA48100-2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-100AH-48V-5kWh-Lithium-Solar-Battery-FLA48100-3.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-100AH-48V-5kWh-Lithium-Solar-Battery-FLA48100-4.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -1514,7 +1522,9 @@ export const PRODUCTS: Product[] = [
         "DC Power UG Energy 1.8kWp-5kWh-4kVA Complete Smart Hybrid Solar Power System; 6-8kWh Daily Yield, WiFi App Monitoring, Automatic Switchover In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Kweli-Energy-1.8kWp-5kWh-4kVA-Complete-Smart-Hybrid-Solar-Power-System.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -1548,7 +1558,9 @@ export const PRODUCTS: Product[] = [
         "DC Power UG Energy 900Wp-2.56kWh-1.5kVA Complete Hybrid Solar Power System; 3.5-4.5kWh Daily Yield, Automatic Switchover In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/Kweli-Energy-900Wp-2.56kWh-1.5kVA-Complete-Hybrid-Solar-Power-System.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -1582,7 +1594,9 @@ export const PRODUCTS: Product[] = [
         "DC Power UG Energy 600Wp-2.56kWh-1kW Complete Hybrid Solar Power System; 2.2-3kWh Daily PV Yield, Long-Life Lithium Battery, Automatic Switchover In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/Kweli-Energy-0.6kWp-2.56kWh-1kVA-Complete-Hybrid-Solar-Power-System.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -1615,7 +1629,10 @@ export const PRODUCTS: Product[] = [
         "SRNE 5kW/5.12kWh Lithium All-in-One Backup Power System EOT05S; Charge By Grid, Generator & Solar Up To 5500Wp In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-5kW5.12kWh-Lithium-All-in-One-Backup-Power-System-EOT05S.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-5kW5.12kWh-Lithium-All-in-One-Backup-Power-System-EOT05S-1.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -1653,7 +1670,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 50kVA/50kW 3-Phase High Voltage Hybrid Solar Inverter T-REX-50KHP3G01; 75kWp PV Input, 180-750V Battery Range, Dual MPPT, IP65, Smart Energy Management, Remote Monitoring Via Wi-Fi In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/10/Felicity-3-Phase-High-Voltage-Hybrid-Solar-Inverter-T-REX-50KHP3G01-2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/10/Felicity-3-Phase-High-Voltage-Hybrid-Solar-Inverter-T-REX-50KHP3G01.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/10/Felicity-3-Phase-High-Voltage-Hybrid-Solar-Inverter-T-REX-50KHP3G01-3.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -1691,7 +1712,9 @@ export const PRODUCTS: Product[] = [
         "Felicity 61.44kWh High Voltage Lithium Battery System LUX-Y-48100HG01; 12 × 5.12kWh (48V 100Ah) Modules, 90% DoD, 6000+ Cycles, Built-in BMS, Stack-Mount, Scalable In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/10/Felicity-61.44kWh-High-Voltage-Lithium-Battery-System-LUX-Y-48100HG01.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -1723,7 +1746,9 @@ export const PRODUCTS: Product[] = [
         "Felicity 12kW 48V 3-Phase Hybrid Solar Inverter IVGM12KLP3G1; 18kW PV, 800V Voc, 160-650V MPPT, 2 MPPT, 240A, IP65, WiFi, Gen In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/Felicity-12kW-48V-3-Phase-Hybrid-Solar-Inverter-IVGM12KLP3G1.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -1755,7 +1780,9 @@ export const PRODUCTS: Product[] = [
         "Felicity 12kW 48V Single Phase Hybrid Solar Inverter IVEM12048-II; 15kW PV, 500V Voc, 90-450V MPPT, 2 PV Inputs, 240A Charge, WiFi, Gen In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/Felicity-12kW-48V-Single-Phase-Hybrid-Solar-Inverter-IVEM12048-II.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -1788,7 +1815,9 @@ export const PRODUCTS: Product[] = [
         "Felicity 750VA/0.6kW 12V Pure Sine Wave Inverter IVPS0712; Bypass Charging, AC Charging In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/04/Felicity-750VA-12V-Pure-Sine-Wave-Inverter-IVPS0712-1.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -1821,7 +1850,11 @@ export const PRODUCTS: Product[] = [
         "Genuine Felicity 80A 48V MPPT Solar Charge Controller SCCM8048-II; 145V/80A, Up To 4400Wpv @ 48V, 2200Wpv @24V, 1100Wpv @12V In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/09/Felicity-80A-MPPT-Solar-Charge-Controller-SCCM8048-II-1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/03/Felicity-100A-MPPT-Solar-Charge-Controller-SCCM10048-II-3.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/03/Felicity-100A-MPPT-Solar-Charge-Controller-SCCM10048-II-5.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
@@ -1850,7 +1883,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 60A MPPT Solar Charge Controller SCCM6048-II; 145V/60A, Up To 3300Wpv @ 48V, 1650Wpv @24V, 825Wpv @12V In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2023/10/Felicity-60A-MPPT-Solar-Charge-Controller-SCCM6048-II.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2023/10/Felicity-60A-MPPT-Solar-Charge-Controller-SCCM6048-II-1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/03/Felicity-100A-MPPT-Solar-Charge-Controller-SCCM10048-II-3.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
@@ -1879,7 +1916,10 @@ export const PRODUCTS: Product[] = [
         "Felicity 45A MPPT Solar Charge Controller SCCM4524-II; 95V/45A, Up To 1250Wpv @24V, 625Wpv @12V In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/09/Felicity-45A-MPPT-Solar-Charge-Controller-SCCM4524-II.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/09/Felicity-45A-MPPT-Solar-Charge-Controller-SCCM4524-II-1.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
@@ -1908,7 +1948,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 30A MPPT Solar Charge Controller SCCM3024-II; 95V/30A, Up To 830Wpv @24V, 420Wpv @12V In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2023/10/Felicity-30A-MPPT-Solar-Charge-Controller-SCCM3024-II.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2023/10/Felicity-30A-MPPT-Solar-Charge-Controller-SCCM3024-II_.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/03/Felicity-100A-MPPT-Solar-Charge-Controller-SCCM10048-II-3.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
@@ -1937,7 +1981,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 1kVA/1kW 12V Hybrid Inverter IVCM1012; Built-in 60A MPPT Solar Charge Controller 900Wp/95Voc/15-80V, Pure Sine Wave Output In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/01/1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/01/Felicity-1kVA_1kW-12V-Hybrid-Inverter-IVCM1012.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/01/Felicity-1kVA_1kW-12V-Hybrid-Inverter-IVCM1012-2.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -1970,7 +2018,11 @@ export const PRODUCTS: Product[] = [
         "Genuine Felicity 1500VA 12V, 220VAC Pure Sine Wave Inverter IVPS1512; 1.2kW Load, 50/60Hz, 18A Max Charge, Overload & Short Circuit Protection In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/04/Felicity-1500VA-12V-220VAC-Pure-Sine-Wave-Inverter-IVPS1512-1.2kW-Load-5060Hz-18A-Max-Charge-Overload-Short-Circuit-Protection.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/04/Felicity-1500VA-12V-Pure-Sinewave-Inverter-IVPS1512-3.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/04/Felicity-1500VA-12V-Pure-Sinewave-Inverter-IVPS1512-2.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2002,7 +2054,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 100A 48V MPPT Solar Charge Controller SCCM10048; 195V/100A, Up To 5,500Wpv @ 48V, 2750Wpv @24V, 1375Wpv @12V In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/03/Felicity-100A-MPPT-Solar-Charge-Controller-SCCM10048-II-2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/03/Felicity-100A-MPPT-Solar-Charge-Controller-SCCM10048-II-3.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/03/Felicity-100A-MPPT-Solar-Charge-Controller-SCCM10048-II.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
@@ -2030,7 +2086,10 @@ export const PRODUCTS: Product[] = [
         "Felicity Solar 2kW/2kVA 24V Hybrid Solar Inverter IVCM2024 PRO; Built-in MPPT Solar Charge Controller, 230Vac Output, 90-280Vac Input, LCD Display, Generator Compatible In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/05/Felicity-Solar-2kW2kVA-24V-Hybrid-Solar-Inverter-IVCM2024-PRO-Built-in-MPPT-Solar-Charge-Controller-230Vac-Output-90%E2%80%93280Vac-Input-LCD-Display-Generator-Compatible.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/05/Felicity-Solar-2kW2kVA-24V-Hybrid-Solar-Inverter-IVCM2024-PRO-Built-in-MPPT-Solar-Charge-Controller-230Vac-Output-90%E2%80%93280Vac-Input-LCD-Display-Generator-Compatible-1.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2063,7 +2122,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 6kVA/6kW 48V Hybrid Inverter IVEM6048-II; 7.5kWp/500Voc/90–450VDC/120A Built-in MPPT Charge Controller, Battery Charger, 230Vac Pure Sine Wave Output, Built-in WiFi In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-6kVA_6kW-48V-Hybrid-Inverter-IVEM6048-II-2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-6kVA_6kW-48V-Hybrid-Inverter-IVEM6048-II.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-6kVA_6kW-48V-Hybrid-Inverter-IVEM6048-II-3.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2096,7 +2159,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 100AH 48V 5kWh Lithium Solar Battery FLA48100; Built-in BMS, Over 6,000 Charge Cycles @25°C, 80% DoD, Long Lifespan, Fast Charging In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-100AH-48V-5kWh-Lithium-Solar-Battery-FLA48100-2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-100AH-48V-5kWh-Lithium-Solar-Battery-FLA48100-3.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-100AH-48V-5kWh-Lithium-Solar-Battery-FLA48100-4.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2129,7 +2196,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 200Ah 24V 5kWh Lithium Solar Battery FLA24200; Built-in BMS & WiFi, ≥6,000 Cycles, @25°C, 80% DoD, Parallel Up To 75kWh Or 15 Units In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-200AH-24V-5kWh-Lithium-Solar-Battery-FLA24200-1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-200AH-24V-5kWh-Lithium-Solar-Battery-FLA24200-2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-200AH-24V-5kWh-Lithium-Solar-Battery-FLA24200-4.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2167,7 +2238,11 @@ export const PRODUCTS: Product[] = [
         "Felicity T-REX 10kVA/10kW 48V 3-Phase Hybrid Solar Inverter T-REX-10KLP3G01; Built-in Dual MPPT 13000W Solar Charge Controller, 200–850V MPPT Range, 900V Voc, Pure Sine Wave Output, Wi-Fi Monitoring, IP65 In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/05/Felicity-T-REX-10kVA_10kW-48V-3-Phase-Hybrid-Solar-Inverter-T-REX-10KLP3G01-5.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/05/Felicity-T-REX-10kVA_10kW-48V-3-Phase-Hybrid-Solar-Inverter-T-REX-10KLP3G01.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/05/Felicity-T-REX-10kVA_10kW-48V-3-Phase-Hybrid-Solar-Inverter-T-REX-10KLP3G01-2.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2200,7 +2275,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 200Ah 51.2V 10kWh Lithium Solar Battery FLA48200; Built-in BMS & WiFi, ≥6,000 Cycles @25°C, 80% DoD, Parallel Up To 150kWh Or 15 Units In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/09/Felicity-200Ah-51.2V-10kWh-Lithium-Solar-Battery-FLA48200-2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/09/Felicity-200Ah-51.2V-10kWh-Lithium-Solar-Battery-FLA48200.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/09/Felicity-200Ah-51.2V-10kWh-Lithium-Solar-Battery-FLA48200-3.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2233,7 +2312,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 200Ah 51.2V 10kWh Lithium Solar Battery FLA48200; Built-in BMS & WiFi, ≥6,000 Cycles @25°C, 80% DoD, Parallel Up To 150kWh Or 15 Units In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/09/Felicity-200Ah-51.2V-10kWh-Lithium-Solar-Battery-FLA48200-2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/09/Felicity-200Ah-51.2V-10kWh-Lithium-Solar-Battery-FLA48200.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/09/Felicity-200Ah-51.2V-10kWh-Lithium-Solar-Battery-FLA48200-3.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2265,7 +2348,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 8kW 48V Single Phase Hybrid Solar Inverter IVEM8048-II; 10kWp PV, 500V Voc, 90-450V MPPT, 2 PV Inputs, 150A Charge, WiFi, Gen In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/12/Felicity-8kVA_8kW-48V-Hybrid-Inverter-IVEM-2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/12/Felicity-8kVA_8kW-48V-Hybrid-Inverter-IVEM.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2024/12/Felicity-8kVA_8kW-48V-Hybrid-Inverter-IVEM-3.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2298,7 +2385,11 @@ export const PRODUCTS: Product[] = [
         "Felicity 15kWh 51.2V Lithium Battery FLA48300TG2; LiFePO4, 300Ah, 95% DoD, 6000 Cycles, Smart BMS, WiFi/BT, 15-Unit Parallel In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-15kWh-51.2V-Lithium-Battery-FLA48300TG2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-15kWh-51.2V-Lithium-Battery-FLA48300TG2-1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/08/Felicity-15kWh-51.2V-Lithium-Battery-FLA48300TG2-2.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2331,7 +2422,10 @@ export const PRODUCTS: Product[] = [
         "Deye SE-G5.1 5.12kWh 51.2V LiFePO4 Lithium Solar Battery; Rack-Mounted, Built-in Intelligent BMS, 100Ah, 50A Charge/Discharge, IP20, CAN/RS485, Stackable Up To 64 Units (327.68kWh) In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/02/Deye-SE-G5.1-5.12kWh-51.2V-LiFePO%E2%82%84-Lithium-Solar-Battery_.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/02/Deye-SE-G5.1-5.12kWh-51.2V-LiFePO%E2%82%84-Lithium-Solar-Battery.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2363,7 +2457,10 @@ export const PRODUCTS: Product[] = [
         "Deye 3kVA/3kW 24V Single Phase Hybrid Inverter SUN-3K-SG04LP1-24-EU; 1 MPPT, 6kWp/4.8kWp PV Access/Input, 500Vdc, 150–425V MPPT Range, 140A Charge/Discharge, WiFi/4G Monitoring, IP65 In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/02/Deye-3kVA_3kW-24V-Single-Phase-Hybrid-Inverter-SUN-3K-SG04LP1-24-EU.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/02/Deye-3kVA_3kW-24V-Single-Phase-Hybrid-Inverter-SUN-3K-SG04LP1-24-EU-2.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2396,7 +2493,10 @@ export const PRODUCTS: Product[] = [
         "Deye 5.12kWh 51.2V LiFePO4 Lithium Solar Battery RW-L5.1; Built-in BMS, 100Ah, 100/120A Charge/Discharge, IP65, CAN/RS485, Wall-Mounted, Scalable Up To 32 Units (163.84kWh) In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/02/Deye-5.12kWh-51.2V-LiFePO%E2%82%84-Lithium-Battery-RW-L5.1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/02/Deye-5.12kWh-51.2V-LiFePO%E2%82%84-Lithium-Battery-RW-L5.1-1.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2429,7 +2529,11 @@ export const PRODUCTS: Product[] = [
         "Deye 5kVA/5kW 48V Single Phase Hybrid Inverter SUN-5K-SG04LP1-EU; 2 MPPT, 10kWp/8kWp PV Access/Input, 500Vdc, 150–425V MPPT Range, 120A Charge/Discharge, WiFi/4G Monitoring, IP65 In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/02/Deye-5kVA_5kW-48V-Single-Phase-Hybrid-Inverter-SUN-5K-SG04LP1-EU.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/02/Deye-5kVA_5kW-48V-Single-Phase-Hybrid-Inverter-SUN-5K-SG04LP1-EU-4.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/02/Deye-5kVA_5kW-48V-Single-Phase-Hybrid-Inverter-SUN-5K-SG04LP1-EU-3.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2462,7 +2566,11 @@ export const PRODUCTS: Product[] = [
         "Deye 8kVA/8kW 48V Single Phase Hybrid Inverter SUN-8K-SG01LP1-EU; 2 MPPT, 16kWp PV Access, 500Vdc, 150–425V MPPT Range, 190A Charge/Discharge, WiFi/4G Monitoring, IP65 In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/04/Deye-8kVA_8kW-48V-Single-Phase-Hybrid-Inverter-SUN-8K-SG01LP1-EU.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/04/Deye-8kVA_8kW-48V-Single-Phase-Hybrid-Inverter-SUN-8K-SG01LP1-EU-4.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/04/Deye-8kVA_8kW-48V-Single-Phase-Hybrid-Inverter-SUN-8K-SG01LP1-EU-5.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2495,7 +2603,11 @@ export const PRODUCTS: Product[] = [
         "Deye 12kVA/12kW 48V Single Phase Hybrid Inverter SUN-12K-SG01LP1-EU; 24/19.2kWp PV Access/Input, 500Vdc, 150–425V MPPT Range, 240A Charge/Discharge, WiFi/4G Monitoring, IP65 In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/09/Deye-12kVA_12kW-48V-Single-Phase-Hybrid-Inverter.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/09/Deye-12kVA_12kW-48V-Single-Phase-Hybrid-Inverter-2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/09/Deye-12kVA_12kW-48V-Single-Phase-Hybrid-Inverter-3.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2528,7 +2640,11 @@ export const PRODUCTS: Product[] = [
         "Deye 16kVA/16kW 48V Single Phase Hybrid Inverter SUN-16K-SG01LP1-EU-AM3-P; 3 MPPT, 32kWp/25.6kWp PV Access/Input, 500Vdc, 150–425V MPPT Range, 290A Charge/Discharge, Dual Battery Input, WiFi/4G Monitoring, IP65 In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/02/Deye-16kVA-16kW-48V-Single-Phase-Hybrid-Inverter-SUN-16K-SG01LP1-EU-AM3-P-3.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/02/Deye-16kVA-16kW-48V-Single-Phase-Hybrid-Inverter-SUN-16K-SG01LP1-EU-AM3-P-2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/02/Deye-16kVA-16kW-48V-Single-Phase-Hybrid-Inverter-SUN-16K-SG01LP1-EU-AM3-P-5.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2605,7 +2721,10 @@ export const PRODUCTS: Product[] = [
         "SRNE 16.07kWh 51.2V Lithium Battery SE16B-Pro; LiFePO4, 314Ah, 80% DoD, 6000 Cycles, Built-in BMS, Parallel Up To 16 Units In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-16.07kWh-51.2V-Lithium-Battery-SE16B-Pro.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-16.07kWh-51.2V-Lithium-Battery-SE16B-Pro-1.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2685,7 +2804,10 @@ export const PRODUCTS: Product[] = [
         "SRNE 14.33kWh 51.2V Lithium Battery SR-SE15B; LiFePO4, 280Ah, 90% DoD, 6000 Cycles, CAN/RS485, Parallel Up To 16 Units In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-14.33kWh-51.2V-Lithium-Battery-SR-SE15B-1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-14.33kWh-51.2V-Lithium-Battery-SR-SE15B-2.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2757,7 +2879,10 @@ export const PRODUCTS: Product[] = [
         "SRNE 10.49kWh 51.2V Lithium Battery SE10B; LiFePO4, 205Ah, 80% DoD, 6000 Cycles, Built-in BMS, Parallel Up To 16 Units In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-10.49kWh-51.2V-Lithium-Battery-SE10B.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-10.49kWh-51.2V-Lithium-Battery-SE10B-1.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2790,7 +2915,11 @@ export const PRODUCTS: Product[] = [
         "SRNE 12kVA/12kW 3-Phase Hybrid Solar Inverter ASF48120SH3; Supports Up To 18kWp PV, 48V Battery, 230/400V AC Output, Dual MPPT, 800V Voc, 200–650V MPPT Range, 260A Hybrid Charging, Pure Sine Wave Output In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/05/SRNE-12kVA_12kW-3-Phase-Hybrid-Solar-Inverter-ASF48120SH3.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/05/SRNE-12kVA_12kW-3-Phase-Hybrid-Solar-Inverter-ASF48120SH3-3.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/05/SRNE-12kVA_12kW-3-Phase-Hybrid-Solar-Inverter-ASF48120SH3-2.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2862,7 +2991,10 @@ export const PRODUCTS: Product[] = [
         "SRNE 5.12kWh 51.2V Lithium Battery SE05B; LiFePO4, 100Ah, 80% DoD, 6000 Cycles, Built-in BMS, Parallel Up To 16 Units In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-5.12kWh-51.2V-Lithium-Battery-SE05B-1-1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-5.12kWh-51.2V-Lithium-Battery-SE05B-2.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2895,7 +3027,10 @@ export const PRODUCTS: Product[] = [
         "SRNE 5kW/5.12kWh Lithium All-in-One Backup Power System EOT05S; Charge By Grid, Generator & Solar Up To 5500Wp In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-5kW5.12kWh-Lithium-All-in-One-Backup-Power-System-EOT05S.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-5kW5.12kWh-Lithium-All-in-One-Backup-Power-System-EOT05S-1.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -2934,7 +3069,10 @@ export const PRODUCTS: Product[] = [
         "SRNE 5.12kWh 51.2V Rack Lithium Battery EOC05B-UL; LiFePO4, 100Ah, 80% DoD, 6000 Cycles, Built-in BMS, Parallel Up To 16 Units In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-5.12kWh-51.2V-Rack-Lithium-Battery-EOC05B-UL-1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-5.12kWh-51.2V-Rack-Lithium-Battery-EOC05B-UL.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -3003,7 +3141,11 @@ export const PRODUCTS: Product[] = [
         "SRNE 6kW 48V Off-Grid Solar Storage Inverter AEP4860S135-H; 2 MPPT, 12000W PV, 65-450V MPPT, 500V Voc, 135A, 6-Unit Parallel, WiFi Option, IP65 In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-6kW-48V-Off-Grid-Solar-Storage-Inverter-AEP4860S135-H-1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-6kW-48V-Off-Grid-Solar-Storage-Inverter-AEP4860S135-H.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-6kW-48V-Off-Grid-Solar-Storage-Inverter-AEP4860S135-H-2.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -3079,7 +3221,9 @@ export const PRODUCTS: Product[] = [
         "SRNE 2.56kWh 25.6V Lithium Battery EOS02B-24; LiFePO4, 100Ah, 80% DoD, 6000 Cycles, Built-in BMS, Parallel Up To 4 Units In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-2.56kWh-25.6V-Lithium-Battery-EOS02B-24.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -3156,7 +3300,7 @@ export const PRODUCTS: Product[] = [
         "SRNE 6.2kW 48V Hybrid Solar Inverter HYP4860S100-H; 2 MPPT, 9000W PV, 120-480V MPPT, 550V Voc, 100A, 6-Unit Parallel, WiFi/GPRS, IP20 In Uganda"
       ]
     ],
-    "images": [],
+    images: [],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -3232,7 +3376,9 @@ export const PRODUCTS: Product[] = [
         "SRNE 2.56kWh 12.8V Lithium Battery EOS02B-12; LiFePO4, 200Ah, 80% DoD, 6000 Cycles, Built-in BMS, Parallel Up To 4 Units In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-2.56kWh-12.8V-Lithium-Battery-EOS02B-12.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -3270,7 +3416,10 @@ export const PRODUCTS: Product[] = [
         "SRNE 5kW 48V Single-Phase Off-Grid Inverter AFP4850S100-H; 1 MPPT, 7500W PV, 60-450V MPPT, 500V Voc, 100A, 6-Unit Parallel, IP20 In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-5kW-48V-Single-Phase-Off-Grid-Inverter-AFP4850S100-H.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/SRNE-5kW-48V-Single-Phase-Off-Grid-Inverter-AFP4850S100-H-1.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -3341,7 +3490,9 @@ export const PRODUCTS: Product[] = [
         "SRNE 3.3kW 24V Hybrid Solar Inverter HF2430S80-H; 4kWp/500Voc/120-500VDC/80A MPPT Charge Controller, 230Vac Pure Sine Wave Output, WiFi Optional In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/02/SRNE-3.3kVA3.3kW-24V-Hybrid-Inverter-HF2430S80-H.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -3407,7 +3558,9 @@ export const PRODUCTS: Product[] = [
         "SRNE 3kVA/3kW 24V Hybrid Inverter HF2430S60-100; Built-in 60A MPPT Solar Charge Controller 1400Wp/100Voc/30-95V, Pure Sine Wave Output In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/02/SRNE-3kVA3kW-24V-Hybrid-Inverter-HF2430S60-100.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -3478,7 +3631,11 @@ export const PRODUCTS: Product[] = [
         "SRNE 1.5kVA/1.5kW 12V Hybrid Solar Inverter HF1215S60-108; Built-in 60A MPPT Solar Charge Controller 1000Wp/108Voc/15–90V, Pure Sine Wave Output In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/05/SRNE-1.5kVA1.5kW-12V-Hybrid-Solar-Inverter-HF1215S60-108-2.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/05/SRNE-1.5kVA1.5kW-12V-Hybrid-Solar-Inverter-HF1215S60-108-4.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2025/05/SRNE-1.5kVA1.5kW-12V-Hybrid-Solar-Inverter-HF1215S60-108-3.png"
+    ],
     "warranty": "1 Year",
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
@@ -3546,7 +3703,9 @@ export const PRODUCTS: Product[] = [
         "Dyness 5.12kWh 51.2V Lithium Solar Battery DL5.0C; 100Ah, 50A Recommended, 100A Max Discharge, 6000+ Cycles, Scalable To 256kWh In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/07/Dyness-5.12kWh-51.2V-Lithium-Solar-Battery-DL5.0C.png"
+    ],
     "warranty": "10 Years",
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
@@ -3621,7 +3780,9 @@ export const PRODUCTS: Product[] = [
         "Dyness 2.56kWh 25.6V LiFePO4 Lithium Solar Battery DL2.5 C; 100Ah, Built-in BMS, 50A Recommended Charge/Discharge, 130A Max Discharge, CAN/RS485, Optional WiFi, IP20, Stackable Up To 16 Units (40.96kWh) In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-2.56kWh-25.6V-LiFePO%E2%82%84-Lithium-Solar-Battery-DL2.5C.png"
+    ],
     "warranty": "10 Years",
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
@@ -3652,7 +3813,11 @@ export const PRODUCTS: Product[] = [
         "Dyness - DC Power UG.shop"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-STACK100-921.6kWh-LiFePO%E2%82%84-High-Voltage-Lithium-Battery-System-600x450.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-STACK100-921.6kWh-LiFePO%E2%82%84-High-Voltage-Lithium-Battery-System.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-STACK100-230.4kWh-Industrial-High-Voltage-LiFePO%E2%82%84-Lithium-Battery-System-600x450.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
@@ -3734,7 +3899,10 @@ export const PRODUCTS: Product[] = [
         "Dyness STACK100 5.12kWh 51.2V LiFePO4 High-Voltage Lithium Battery Module; 100Ah, 1C Charge/Discharge, CAN/RS485, Cable-Free Stackable Design, Scalable To 921.6kWh, 10-Year Warranty In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-STACK100-5.12kWh-51.2V-LiFePO%E2%82%84-High-Voltage-Lithium-Battery-Module-1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-STACK100-5.12kWh-51.2V-LiFePO%E2%82%84-High-Voltage-Lithium-Battery-Module.png"
+    ],
     "warranty": "10 Years",
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
@@ -3768,7 +3936,11 @@ export const PRODUCTS: Product[] = [
         "Dyness PowerBrick Max 16kWh 51.2V Lithium Battery; LiFePO4, 314Ah, 95% DOD, 8000+ Cycles, Built-in BMS, Optional WiFi, Scalable Up To 50 Units In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/06/Dyness-PowerBrick-Max-16kWh-51.2V-Lithium-Battery.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/06/Dyness-PowerBrick-Max-16kWh-51.2V-Lithium-Battery-1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/06/Dyness-PowerBrick-Max-16kWh-51.2V-Lithium-Battery-2.png"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -3854,7 +4026,10 @@ export const PRODUCTS: Product[] = [
         "Dyness STACK100 15.36kWh 153.6V LiFePO4 High-Voltage Lithium Battery System; 100Ah, 1C Charge/Discharge, CAN/RS485, Cable-Free Stackable Design, Built-in Aerosol Fire Extinguisher, 10-Year Warranty In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-STACK100-5.12kWh-51.2V-LiFePO%E2%82%84-High-Voltage-Lithium-Battery-Module-1.png",
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-STACK100-5.12kWh-51.2V-LiFePO%E2%82%84-High-Voltage-Lithium-Battery-Module.png"
+    ],
     "warranty": "10 Years",
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
@@ -3941,7 +4116,9 @@ export const PRODUCTS: Product[] = [
         "Dyness STACK100 61.44kWh 614.4V LiFePO4 High-Voltage Lithium Battery System; 100Ah, 1C Charge/Discharge, CAN/RS485, Cable-Free Stackable Design, Built-in Aerosol Fire Extinguisher, 10-Year Warranty In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-STACK100-5.12kWh-51.2V-LiFePO%E2%82%84-High-Voltage-Lithium-Battery-Module.png"
+    ],
     "warranty": "10 Years",
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
@@ -4028,7 +4205,7 @@ export const PRODUCTS: Product[] = [
         "Dyness STACK100 76.8kWh 768V LiFePO4 High-Voltage Lithium Battery System; 100Ah, 1C Charge/Discharge, CAN/RS485, Cable-Free Stackable Design, Built-in Aerosol Fire Extinguisher, 10-Year Warranty In Uganda"
       ]
     ],
-    "images": [],
+    images: [],
     "warranty": "10 Years",
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
@@ -4115,7 +4292,9 @@ export const PRODUCTS: Product[] = [
         "Dyness STACK100 921.6kWh Industrial LiFePO4 High-Voltage Lithium Battery System; 100Ah, 12 Clusters In Parallel, 1C Charge/Discharge, CAN/RS485, Cable-Free Stackable Design, Built-in Aerosol Fire Extinguisher, 10-Year Warranty In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-STACK100-921.6kWh-LiFePO%E2%82%84-High-Voltage-Lithium-Battery-System.png"
+    ],
     "warranty": "10 Years",
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
@@ -4202,7 +4381,9 @@ export const PRODUCTS: Product[] = [
         "Dyness STACK100 230.4kWh Industrial High-Voltage LiFePO4 Lithium Battery System; 100Ah, 3 Clusters In Parallel, 1C Charge/Discharge, CAN/RS485, Cable-Free Stackable Design, Built-in Aerosol Fire Extinguisher, 10-Year Warranty In Uganda"
       ]
     ],
-    "images": [],
+    images: [
+      "https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-STACK100-230.4kWh-Industrial-High-Voltage-LiFePO%E2%82%84-Lithium-Battery-System.png"
+    ],
     "warranty": "10 Years",
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
@@ -4233,7 +4414,11 @@ export const PRODUCTS: Product[] = [
         "Blue Carbon - Blue Carbon All In One Solar Power Street Light 100W Solar Lamp Integrated Led Solar Street Light 8-10m - bluecarbontech.com"
       ]
     ],
-    "images": [],
+    images: [
+      "https://bluecarbontech.com/wp-content/uploads/2025/01/d2e4d1b585e5d2b76d85f7316c2e86cc-150x150.webp",
+      "https://bluecarbontech.com/wp-content/uploads/2025/01/d2e4d1b585e5d2b76d85f7316c2e86cc.webp",
+      "https://bluecarbontech.com/wp-content/uploads/2025/01/3cfd040d4a3c9b67adaea34269d24184-150x150.webp"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4269,7 +4454,9 @@ export const PRODUCTS: Product[] = [
         "24V Municipal Street Light (BCT-OLM-B) - Blue Carbon Solar Lights"
       ]
     ],
-    "images": [],
+    images: [
+      "https://solarbluecarbon.com/products/municipal-solar-street-light-24v-bct-olm-b/"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4300,7 +4487,10 @@ export const PRODUCTS: Product[] = [
         "Blue Carbon Mini Simplify Light Outdoor 5m 20W Solar Street Light System Low Price - Solar Light, Solar LED Street Light | Made-in-China.com"
       ]
     ],
-    "images": [],
+    images: [
+      "https://image.made-in-china.com/155f0j00dcZfBqbGECka/Blue-Carbon-Mini-Simplify-Light-Outdoor-5m-20W-Solar-Street-Light-System-Low-Price.webp",
+      "https://www.made-in-china.com/sendInquiry/prod_EwxQkpAdYUhO_oqbJTdMDCGlc.html?plant=en&from=shrom&type=down&page=p_detail"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4331,7 +4521,11 @@ export const PRODUCTS: Product[] = [
         "Blue Carbon Solar Products – Lithium Batteries, Solar Panels, Street Lights & More | Blue Carbon Nigeria"
       ]
     ],
-    "images": [],
+    images: [
+      "https://bluecarbonnigeria.com/product/olf-all-in-one-solar-street-lights/",
+      "https://bluecarbonnigeria.com/all-products/#",
+      "https://bluecarbonnigeria.com/all-products/?add-to-cart=1571"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4362,7 +4556,9 @@ export const PRODUCTS: Product[] = [
         "Blue Carbon Wawa Light 3.0 | Blue Carbon Nigeria"
       ]
     ],
-    "images": [],
+    images: [
+      "https://bluecarbonnigeria.com/wp-content/uploads/2025/03/blue-carbon-nigeria-349-x-234-px-4.jpg"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [],
@@ -4388,7 +4584,10 @@ export const PRODUCTS: Product[] = [
         "Blue Carbon 200W 300W 400W 500W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com"
       ]
     ],
-    "images": [],
+    images: [
+      "https://image.made-in-china.com/155f0j00atzoIBrAOCqT/Blue-Carbon-200W-300W-400W-500W-Professional-IP66-Waterproof-Outdoor-Garden-Floodlight-Solar-LED-Flood-Light.webp",
+      "https://www.made-in-china.com/sendInquiry/prod_xFNGEwXAfOWD_oqbJTdMDCGlc.html?plant=en&from=shrom&type=down&page=p_detail"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4424,7 +4623,7 @@ export const PRODUCTS: Product[] = [
         "Shop BCT-King 2.0B solar street Light"
       ]
     ],
-    "images": [],
+    images: [],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4455,7 +4654,11 @@ export const PRODUCTS: Product[] = [
         "Customized Blue Carbon - Street Light Solar Street Light Manufacturers From China | Blue Carbon - bluecarbontech.com"
       ]
     ],
-    "images": [],
+    images: [
+      "https://bluecarbontech.com/wp-content/uploads/2025/01/file_01710388014282-150x150.webp",
+      "https://bluecarbontech.com/wp-content/uploads/2025/01/file_01710388014282.webp",
+      "https://bluecarbontech.com/wp-content/uploads/2025/01/0e08e748f4fe39f33ff8c7659e2489ac-150x150.webp"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4486,7 +4689,10 @@ export const PRODUCTS: Product[] = [
         "Blue Carbon Factory Solar Street Light 50W Power LED Street Light Outdoor Price for Sale - LED, Solar | Made-in-China.com"
       ]
     ],
-    "images": [],
+    images: [
+      "https://image.made-in-china.com/155f0j00pEvkcuiRaFqr/Blue-Carbon-Factory-Solar-Street-Light-50W-Power-LED-Street-Light-Outdoor-Price-for-Sale.webp",
+      "https://www.made-in-china.com/sendInquiry/prod_JQhYwxdLumVn_oqbJTdMDCGlc.html?plant=en&from=shrom&type=down&page=p_detail"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4517,7 +4723,7 @@ export const PRODUCTS: Product[] = [
         "Blue Carbon All-In-One Solar Power Street Light 140W | Blue Carbon Nigeria"
       ]
     ],
-    "images": [],
+    images: [],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4548,7 +4754,11 @@ export const PRODUCTS: Product[] = [
         "China Blue Carbon Factory Direct Outdoor All in One Solar Street Light LED Lamp Smart Remote Control Manufacturers Suppliers Factory"
       ]
     ],
-    "images": [],
+    images: [
+      "https://www.bctvnergy.com/uploads/29346/25w-e333a.jpg",
+      "https://www.bctvnergy.com/uploads/29346/25w-33477.jpg",
+      "https://www.bctvnergy.com/uploads/29346/25w-7152c.jpg"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4579,7 +4789,11 @@ export const PRODUCTS: Product[] = [
         "China Blue Carbon Factory Direct Outdoor All in One Solar Street Light LED Lamp Smart Remote Control Manufacturers Suppliers Factory"
       ]
     ],
-    "images": [],
+    images: [
+      "https://www.bctvnergy.com/uploads/29346/25w-e333a.jpg",
+      "https://www.bctvnergy.com/uploads/29346/25w-33477.jpg",
+      "https://www.bctvnergy.com/uploads/29346/25w-7152c.jpg"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4610,7 +4824,11 @@ export const PRODUCTS: Product[] = [
         "Why Blue Carbon 100W Integrated Solar Street Light Is Best for Highway Projects"
       ]
     ],
-    "images": [],
+    images: [
+      "https://bluecarbon.ng/public/assets/img/app.png",
+      "https://bluecarbon.ng/public/assets/img/play.png",
+      "https://bluecarbon.ng/"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4641,7 +4859,9 @@ export const PRODUCTS: Product[] = [
         "50 Watt LED Street Light at ₹ 3000/piece | LED Street Light in Hapur | ID: 14111746848"
       ]
     ],
-    "images": [],
+    images: [
+      "https://4.imimg.com/data4/NC/HO/MY-14924728/50-watt-street-light-1000x1000.jpg"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4672,7 +4892,11 @@ export const PRODUCTS: Product[] = [
         "New Design LED Street Light - LED Street Lamp, Street Light | Made-in-China.com"
       ]
     ],
-    "images": [],
+    images: [
+      "https://image.made-in-china.com/205f0j00AERfZYScCUkw/Ningbo-Die-Casting-Man-Energy-Co-Ltd-.jpg",
+      "https://www.micstatic.com/landing/www/product/img/as-long_e2640688.svg",
+      "https://streetlighthousing.en.made-in-china.com/"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4704,7 +4928,11 @@ export const PRODUCTS: Product[] = [
         "Alltop 2000W Solar LED Street Light - 6V 20W Polycrystalline Panel, LiFePO4 15AH Battery, 160 lm/W, 5-7m Mount With 1 Year Warranty - Nabellas Stores"
       ]
     ],
-    "images": [],
+    images: [
+      "https://nabellasstores.com/wp-content/uploads/2026/07/1006624606-700x700.jpg",
+      "https://nabellasstores.com/wp-content/uploads/2026/07/1006624606.jpg",
+      "https://nabellasstores.com/product/alltop-2000w-solar-led-street-light-6v-20w-polycrystalline-panel-lifepo4-15ah-battery-160-lm-w-5-7m-mount-with-1-year-warranty/?gad_source=1&gad_campaignid=23615661560&gclid=CjwKCAjwifjVBhBKEiwAYx4K9MAzKT8KUIcXT7V0CFpZ0jkAhxvWaL6QaGXfPZ99Fz2Y9ewtENlwJxoCdfsQAvD_BwE#"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4735,7 +4963,11 @@ export const PRODUCTS: Product[] = [
         "Alltop 3000W Solar LED Street Light All-in-One Outdoor Solar Lamp with Automatic Dusk-to-Dawn Sensor - Fairprice Mall"
       ]
     ],
-    "images": [],
+    images: [
+      "https://i0.wp.com/fairpricemallug.com/wp-content/uploads/2026/07/Alltop-3000w-street-light.webp?fit=1080%2C1080&ssl=1",
+      "https://i0.wp.com/fairpricemallug.com/wp-content/uploads/2026/07/Alltop-3000w-street-light.webp?w=1080&ssl=1",
+      "https://fairpricemallug.com/product/alltop-3000w-solar-led-street-light-all-in-one-outdoor-solar-lamp-with-automatic-dusk-to-dawn-sensor/?gad_source=1&gad_campaignid=22372090222&gclid=CjwKCAjwifjVBhBKEiwAYx4K9OT1Nnknv_078Qm85N7hgnacrx3KhwgR7_7kqF5FeCZzUzeoOYa4vRoCSkEQAvD_BwE#"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4766,7 +4998,11 @@ export const PRODUCTS: Product[] = [
         "Alltop 200W Solar LED Street Light – Outdoor Solar Lamp 15W Polycrystalline Panel, LiFePO4 Battery - Fairprice Mall"
       ]
     ],
-    "images": [],
+    images: [
+      "https://i0.wp.com/fairpricemallug.com/wp-content/uploads/2026/07/Alltop-200w-solar-street-light.webp?fit=1080%2C1080&ssl=1",
+      "https://i0.wp.com/fairpricemallug.com/wp-content/uploads/2026/07/Alltop-200w-solar-street-light.webp?w=1080&ssl=1",
+      "https://fairpricemallug.com/product/alltop-200w-solar-led-street-light-outdoor-solar-lamp/?gad_source=1&gad_campaignid=22372090222&gclid=CjwKCAjwifjVBhBKEiwAYx4K9HKfvQuMjc4TfsZ6m0n48I3J9lTCbDxXGHaWerjjjS2FpMU2t0-dRhoCi5oQAvD_BwE#"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4796,7 +5032,11 @@ export const PRODUCTS: Product[] = [
         "Alltop 1000W Solar LED Street Light – Outdoor Solar Lamp with 6V 15W Polycrystalline Panel - Fairprice Mall"
       ]
     ],
-    "images": [],
+    images: [
+      "https://i0.wp.com/fairpricemallug.com/wp-content/uploads/2026/07/Alltop-1000w-solar-street-light.webp?fit=1080%2C1080&ssl=1",
+      "https://i0.wp.com/fairpricemallug.com/wp-content/uploads/2026/07/Alltop-1000w-solar-street-light.webp?w=1080&ssl=1",
+      "https://fairpricemallug.com/product/alltop-1000w-solar-led-street-light-outdoor-solar-lamp-with-6v-15w-polycrystalline-panel/?gad_source=1&gad_campaignid=22372090222&gclid=CjwKCAjwifjVBhBKEiwAYx4K9Nby2KSOJNUT0oQmi8pbFoBArPFJ9XYSnX3XWgXGuC1Ylpt5tCHkChoCjcYQAvD_BwE#"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
@@ -4827,7 +5067,11 @@ export const PRODUCTS: Product[] = [
         "ALLTOP 300W Solar LED Flood Light with Solar Panel & Remote Control – Dusk-to-Dawn Outdoor Security Light - Fairprice Mall"
       ]
     ],
-    "images": [],
+    images: [
+      "https://i0.wp.com/fairpricemallug.com/wp-content/uploads/2026/07/All-top-300w-floodlight1.webp?fit=1080%2C1080&ssl=1",
+      "https://i0.wp.com/fairpricemallug.com/wp-content/uploads/2026/07/All-top-300w-floodlight1.webp?w=1080&ssl=1",
+      "https://i0.wp.com/fairpricemallug.com/wp-content/uploads/2026/07/All-top-300w-floodlight3.webp?fit=1080%2C1080&ssl=1"
+    ],
     "support": "DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.",
     "installation": [],
     "applications": [
