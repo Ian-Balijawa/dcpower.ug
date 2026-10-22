@@ -26,6 +26,7 @@ export default function Footer() {
         <nav aria-label="Footer">
           <Link to="/products">Products</Link>
           <Link to="/about">About</Link>
+          <Link to="/gallery">Gallery</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/cart">Cart</Link>
         </nav>

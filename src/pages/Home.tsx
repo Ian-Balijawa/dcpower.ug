@@ -5,6 +5,7 @@ import ProductCard from "../components/ProductCard"
 import Reveal from "../components/Reveal"
 import { BRANDS, SITE } from "../config"
 import { CATEGORIES, PRODUCTS } from "../data/products"
+import "../styles/gallery.css"
 import { useSeo } from "../hooks/useSeo"
 import { waLink } from "../lib/whatsapp"
 
@@ -142,6 +143,43 @@ export default function Home() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="home-gallery wrap pad" aria-labelledby="home-gallery-title">
+        <div className="section-head">
+          <div>
+            <p className="eyebrow">FROM OUR PROJECTS</p>
+            <h2 id="home-gallery-title">Real work. Reliable power.</h2>
+          </div>
+          <Link to="/gallery">Explore all photos <span aria-hidden="true">↗</span></Link>
+        </div>
+
+        <div className="home-gallery-grid">
+          <Link className="home-gallery-card home-gallery-card-tall" to="/gallery">
+            <img
+              src="/images/gallery/dcpower/PHOTO-2026-10-20-22-42-51.jpg"
+              alt="DC Power team preparing solar panels for installation"
+              loading="lazy"
+            />
+            <span>Our installation team</span>
+          </Link>
+          <Link className="home-gallery-card" to="/gallery">
+            <img
+              src="/images/gallery/dcpower/PHOTO-2026-10-20-22-42-48.jpg"
+              alt="Technician handling a solar panel at a project site"
+              loading="lazy"
+            />
+            <span>Solar equipment on site</span>
+          </Link>
+          <Link className="home-gallery-card" to="/gallery">
+            <img
+              src="/images/gallery/dcpower/PHOTO-2026-10-20-22-43-11.jpg"
+              alt="Technician working on an installed inverter system"
+              loading="lazy"
+            />
+            <span>Inverter installation</span>
+          </Link>
         </div>
       </section>
 

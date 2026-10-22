@@ -54,6 +54,7 @@ export default function Header() {
         >
           <NavLink to="/products">Products</NavLink>
           <NavLink to="/about">About</NavLink>
+          <NavLink to="/gallery">Gallery</NavLink>
           <NavLink to="/contact">Contact</NavLink>
         </nav>
 

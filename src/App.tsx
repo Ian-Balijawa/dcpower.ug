@@ -9,6 +9,7 @@ const ProductDetail = lazy(() => import("./pages/ProductDetail"))
 const Cart = lazy(() => import("./pages/Cart"))
 const About = lazy(() => import("./pages/About"))
 const Contact = lazy(() => import("./pages/Contact"))
+const Gallery = lazy(() => import("./pages/Gallery"))
 const NotFound = lazy(() => import("./pages/NotFound"))
 export default function App() {
   const { pathname } = useLocation()
@@ -31,6 +32,7 @@ export default function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/gallery" element={<Gallery />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>

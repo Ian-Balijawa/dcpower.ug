@@ -37,16 +37,25 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        <div className="hero-art" aria-hidden="true">
-          <div className="panel">
-            {Array.from({ length: 28 }, (_, i) => (
-              <i
-                key={i}
-                style={{ animationDelay: `${((i % 7) + Math.floor(i / 7)) * 90 + 300}ms` }}
-              />
-            ))}
-            <b className="glare" />
-          </div>
+        <div className="hero-art">
+          <Link className="hero-photo-frame" to="/gallery" aria-label="Explore DC Power project photos">
+            <img
+              className="hero-photo-main"
+              src="/images/gallery/dcpower/PHOTO-2026-10-20-22-42-51.jpg"
+              alt="DC Power technicians preparing solar panels for installation"
+              fetchPriority="high"
+            />
+            <img
+              className="hero-photo-detail"
+              src="/images/gallery/dcpower/PHOTO-2026-10-20-22-43-11.jpg"
+              alt=""
+              loading="lazy"
+            />
+            <span className="hero-photo-caption">
+              <span>Powering homes and businesses</span>
+              <strong>See our project gallery <span aria-hidden="true">↗</span></strong>
+            </span>
+          </Link>
         </div>
       </div>
     </section>
