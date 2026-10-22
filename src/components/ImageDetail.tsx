@@ -30,7 +30,7 @@ export default function ImageDetail({
 }: ImageDetailProps) {
   const dialogRef = useRef<HTMLElement>(null)
   const closeRef = useRef<HTMLButtonElement>(null)
-  const image = images[index]
+  const image = images.slice(7,)[index]
 
   useEffect(() => {
     const previousOverflow = document.body.style.overflow
