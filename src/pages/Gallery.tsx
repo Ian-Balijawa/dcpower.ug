@@ -30,7 +30,7 @@ export default function Gallery() {
         </header>
 
         <section className="gallery-masonry" aria-label="DC Power photo gallery">
-          {GALLERY_IMAGES.map((src, index) => (
+          {GALLERY_IMAGES.slice(7,).map((src, index) => (
             <button
               key={src}
               type="button"
