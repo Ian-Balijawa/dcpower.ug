@@ -6,6 +6,7 @@ import { ugx } from "../lib/format"
 import { orderLink } from "../lib/whatsapp"
 export default function Cart() {
   const { lines, total, count, setQty, remove, clear } = useCart()
+  const hasPricedItems = lines.some(({ product }) => product.price !== null)
   useSeo({
     title: "Your cart",
     description: "Review your solar products and send your order on WhatsApp.",
@@ -45,7 +46,7 @@ export default function Cart() {
       </ul>
       <div className="sum">
         <p>
-          Estimated total <strong>{ugx(total)}</strong>
+          {hasPricedItems ? "Priced items subtotal" : "Price"} <strong>{hasPricedItems ? ugx(total) : "On request"}</strong>
         </p>
         <p className="muted small">
           Quote-only items are confirmed on WhatsApp. Delivery and installation are quoted

@@ -1,4 +1,3 @@
-import Marquee from "../components/Marquee"
 import { BRANDS } from "../config"
 import { useSeo } from "../hooks/useSeo"
 
@@ -14,8 +13,6 @@ export default function About() {
     <>
       <section className="wrap pad">
         <div className="prose">
-          <p className="eyebrow">ABOUT DC POWER</p>
-
           <h1>
             Reliable power for the places that keep Uganda moving.
           </h1>
@@ -45,7 +42,6 @@ export default function About() {
         <div className="wrap pad">
           <div className="two">
             <div>
-              <p className="eyebrow">WHY WE EXIST</p>
               <h2>Power should work when you need it.</h2>
             </div>
 
@@ -68,8 +64,6 @@ export default function About() {
 
       <section className="wrap pad">
         <div className="prose">
-          <p className="eyebrow">WHAT WE DO</p>
-
           <h2>From the first assessment to long after installation.</h2>
 
           <p>
@@ -111,7 +105,6 @@ export default function About() {
         <div className="wrap pad">
           <div className="two">
             <div>
-              <p className="eyebrow">OUR PROMISE</p>
               <h2>We sell systems, not just components.</h2>
             </div>
 
@@ -140,8 +133,6 @@ export default function About() {
 
       <section className="wrap pad">
         <div className="prose">
-          <p className="eyebrow">WHO WE SERVE</p>
-
           <h2>Solar for homes, businesses and organisations.</h2>
 
           <p>
@@ -159,11 +150,12 @@ export default function About() {
       </section>
 
       <section aria-labelledby="sup" className="brands">
-        <h2 id="sup" className="wrap">
-          Equipment from established brands
-        </h2>
-
-        <Marquee items={BRANDS} tone="small" />
+        <div className="wrap">
+          <h2 id="sup">Equipment from established brands</h2>
+        </div>
+        <div className="wrap brand-list" aria-label="Brands we supply">
+          {BRANDS.map((brand) => <span key={brand}>{brand}</span>)}
+        </div>
       </section>
     </>
   )

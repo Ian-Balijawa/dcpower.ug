@@ -7,21 +7,6 @@ interface ImageDetailProps {
   onClose: () => void
 }
 
-const fileNameOf = (src: string) =>
-  decodeURIComponent(src.split("/").pop() ?? src)
-
-const dateOf = (src: string) => {
-  const match = fileNameOf(src).match(/(20\d{2})-(\d{2})-(\d{2})/)
-  if (!match) return null
-
-  return new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]))
-    .toLocaleDateString("en-UG", {
-      day: "numeric",
-      month: "long",
-      year: "numeric",
-    })
-}
-
 export default function ImageDetail({
   images,
   index,
@@ -30,7 +15,7 @@ export default function ImageDetail({
 }: ImageDetailProps) {
   const dialogRef = useRef<HTMLElement>(null)
   const closeRef = useRef<HTMLButtonElement>(null)
-  const image = images.slice(7,)[index]
+  const image = images[index]
 
   useEffect(() => {
     const previousOverflow = document.body.style.overflow
@@ -38,6 +23,13 @@ export default function ImageDetail({
     document.body.style.overflow = "hidden"
     closeRef.current?.focus()
 
+    return () => {
+      document.body.style.overflow = previousOverflow
+      previousFocus?.focus()
+    }
+  }, [])
+
+  useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
         onClose()
@@ -65,17 +57,10 @@ export default function ImageDetail({
     }
 
     window.addEventListener("keydown", handleKeyDown)
-    return () => {
-      document.body.style.overflow = previousOverflow
-      window.removeEventListener("keydown", handleKeyDown)
-      previousFocus?.focus()
-    }
+    return () => window.removeEventListener("keydown", handleKeyDown)
   }, [images.length, index, onChange, onClose])
 
   if (!image) return null
-
-  const fileName = fileNameOf(image)
-  const date = dateOf(image)
 
   return (
     <div
@@ -93,8 +78,7 @@ export default function ImageDetail({
       >
         <header className="image-detail-header">
           <div>
-            <p className="eyebrow">DC POWER GALLERY</p>
-            <h2 id="image-detail-title">Image {index + 1} of {images.length}</h2>
+            <h2 id="image-detail-title">Photo {index + 1} of {images.length}</h2>
           </div>
           <button
             ref={closeRef}
@@ -103,7 +87,7 @@ export default function ImageDetail({
             onClick={onClose}
             aria-label="Close image details"
           >
-            <span aria-hidden="true">×</span>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
           </button>
         </header>
 
@@ -114,7 +98,7 @@ export default function ImageDetail({
             onClick={() => onChange((index - 1 + images.length) % images.length)}
             aria-label="View previous image"
           >
-            <span aria-hidden="true">‹</span>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m14.5 5-7 7 7 7" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
           </button>
           <img src={image} alt={`DC Power gallery image ${index + 1}`} />
           <button
@@ -123,14 +107,14 @@ export default function ImageDetail({
             onClick={() => onChange((index + 1) % images.length)}
             aria-label="View next image"
           >
-            <span aria-hidden="true">›</span>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9.5 5 7 7-7 7" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
           </button>
         </div>
 
         <footer className="image-detail-meta">
           <div>
-            <strong>{fileName}</strong>
-            {date && <span>Added {date}</span>}
+            <strong>DC Power project gallery</strong>
+            <span>Photo {index + 1} of {images.length}</span>
           </div>
           <p>Use the arrows or ← → keys to browse</p>
         </footer>

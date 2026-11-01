@@ -1,11 +1,4 @@
 export const GALLERY_IMAGES = [
-  '/images/gallery/dcpower/PHOTO-2026-09-22-18-34-55.jpg',
-  '/images/gallery/dcpower/PHOTO-2026-09-23-21-08-55.jpg',
-  '/images/gallery/dcpower/PHOTO-2026-09-24-20-39-29 2.jpg',
-  '/images/gallery/dcpower/PHOTO-2026-09-24-20-39-29.jpg',
-  '/images/gallery/dcpower/PHOTO-2026-09-24-20-40-29.jpg',
-  '/images/gallery/dcpower/PHOTO-2026-09-25-22-03-22.jpg',
-  '/images/gallery/dcpower/PHOTO-2026-09-30-00-44-07.jpg',
   '/images/gallery/dcpower/PHOTO-2026-10-20-22-22-10 2.jpg',
   '/images/gallery/dcpower/PHOTO-2026-10-20-22-22-10.jpg',
   '/images/gallery/dcpower/PHOTO-2026-10-20-22-42-46 2.jpg',

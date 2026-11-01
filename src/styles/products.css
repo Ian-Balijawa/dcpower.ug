@@ -223,6 +223,8 @@
     margin-bottom 0.25s ease;
 }
 
+.filters-panel[hidden] { display: none; }
+
 .filters-panel.is-open {
   grid-template-rows: 1fr;
   opacity: 1;
@@ -572,4 +574,10 @@
   .filters-actions {
     grid-template-columns: 1fr;
   }
+}
+
+@media (hover: none) {
+  .filter-toggle:not(.is-open):hover { background: #fff; color: var(--cell); transform: none; }
+  .filter-chip:hover { border-color: var(--line); background: var(--sky); }
+  .products-results .card:hover { transform: none; border-color: transparent; box-shadow: 0 5px 22px rgba(8, 34, 58, 0.08); }
 }

@@ -36,12 +36,10 @@ export default function ProductDetail() {
     window.scrollTo(0, 0)
   }, [slug])
 
-  console.log("img:", img, p?.images[img])
-
   useSeo({
     title: p?.name ?? "Product not found",
     description: p?.summary ?? "This product is not available.",
-    path: `/ products / ${slug} `,
+    path: `/products/${slug}`,
     jsonLd: p && {
       "@context": "https://schema.org",
       "@type": "Product",

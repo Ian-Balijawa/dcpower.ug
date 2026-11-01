@@ -20,7 +20,6 @@ export default function Gallery() {
     <div className="gallery-page">
       <div className="wrap pad">
         <header className="gallery-heading">
-          <p className="eyebrow">OUR WORK</p>
           <h1>DC Power in action</h1>
           <p>
             A look at the people, products and solar projects that keep homes
@@ -30,7 +29,7 @@ export default function Gallery() {
         </header>
 
         <section className="gallery-masonry" aria-label="DC Power photo gallery">
-          {GALLERY_IMAGES.slice(7,).map((src, index) => (
+          {GALLERY_IMAGES.map((src, index) => (
             <button
               key={src}
               type="button"

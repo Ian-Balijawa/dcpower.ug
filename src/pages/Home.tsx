@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import Hero from "../components/Hero"
-import Marquee from "../components/Marquee"
 import ProductCard from "../components/ProductCard"
 import Reveal from "../components/Reveal"
 import { BRANDS, SITE } from "../config"
@@ -56,13 +55,14 @@ export default function Home() {
   return (
     <>
       <Hero />
-
-      <Marquee items={PRODUCTS.slice(0, 10).map((p) => p.name)} />
+      <div className="value-strip" aria-label="What we offer">
+        <div className="wrap">
+          <span>Solar equipment</span><span>System design</span><span>Installation & support</span>
+        </div>
+      </div>
 
       <section className="wrap pad home-intro" aria-labelledby="intro-title">
         <div className="home-intro-copy prose">
-          <p className="eyebrow">SOLAR POWER, MADE PRACTICAL</p>
-
           <h2 id="intro-title">
             The equipment you need. The system to make it work.
           </h2>
@@ -95,7 +95,6 @@ export default function Home() {
       <section className="wrap pad" aria-labelledby="cats">
         <div className="section-head">
           <div>
-            <p className="eyebrow">SHOP SOLAR</p>
             <h2 id="cats">Find what you need</h2>
           </div>
 
@@ -103,7 +102,7 @@ export default function Home() {
         </div>
 
         <div className="cats">
-          {CATEGORIES.map((category, i) => {
+          {CATEGORIES.filter((category) => PRODUCTS.some((p) => p.category === category)).map((category, i) => {
             const count = PRODUCTS.filter(
               (p) => p.category === category
             ).length
@@ -129,7 +128,6 @@ export default function Home() {
         <div className="wrap pad">
           <div className="section-head">
             <div>
-              <p className="eyebrow">PRODUCTS</p>
               <h2 id="featured-title">Popular solar equipment</h2>
             </div>
 
@@ -149,7 +147,6 @@ export default function Home() {
       <section className="home-gallery wrap pad" aria-labelledby="home-gallery-title">
         <div className="section-head">
           <div>
-            <p className="eyebrow">FROM OUR PROJECTS</p>
             <h2 id="home-gallery-title">Real work. Reliable power.</h2>
           </div>
           <Link to="/gallery">Explore all photos <span aria-hidden="true">↗</span></Link>
@@ -185,7 +182,6 @@ export default function Home() {
 
       <section className="wrap pad why" aria-labelledby="why-title">
         <div className="prose">
-          <p className="eyebrow">WHY DC POWER</p>
 
           <h2 id="why-title">
             Solar should be designed around how you use power.
@@ -199,13 +195,9 @@ export default function Home() {
         </div>
 
         <div className="why-grid">
-          {WHY.map(([title, description], i) => (
-            <Reveal key={title} delay={i * 100}>
+          {WHY.map(([title, description]) => (
+            <Reveal key={title}>
               <div className="why-item">
-                <span className="why-number">
-                  0{i + 1}
-                </span>
-
                 <h3>{title}</h3>
 
                 <p className="muted">{description}</p>
@@ -218,7 +210,6 @@ export default function Home() {
       <section className="band home-process" aria-labelledby="process-title">
         <div className="wrap pad">
           <div className="prose">
-            <p className="eyebrow">HOW IT WORKS</p>
 
             <h2 id="process-title">
               From your power needs to a working system.
@@ -248,20 +239,19 @@ export default function Home() {
 
       <section aria-labelledby="brands-title" className="brands">
         <div className="wrap">
-          <p className="eyebrow">EQUIPMENT</p>
 
           <h2 id="brands-title">
             Brands we supply
           </h2>
         </div>
 
-        <Marquee items={BRANDS} tone="small" reverse />
+        <div className="wrap brand-list" aria-label="Brands we supply">
+          {BRANDS.map((brand) => <span key={brand}>{brand}</span>)}
+        </div>
       </section>
 
       <section className="wrap pad home-cta-section">
         <div className="cta">
-          <p className="eyebrow">NEED HELP CHOOSING?</p>
-
           <h2>
             Tell us what you want to power.
           </h2>

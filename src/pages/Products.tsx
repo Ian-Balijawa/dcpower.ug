@@ -106,8 +106,7 @@ export default function Products() {
 
       const matchesPrice =
         !max ||
-        p.price === null ||
-        p.price <= max
+        (p.price !== null && p.price <= max)
 
       return (
         matchesCategory &&
@@ -150,13 +149,11 @@ export default function Products() {
   }, [q, cat, brand, max, sort])
 
   return (
-    <main className="products-page">
+    <div className="products-page">
       <div className="wrap pad">
         {/* Page heading */}
         <header className="products-heading">
           <div>
-            <p className="eyebrow">DC Power · Product Directory</p>
-
             <h1>
               {q
                 ? `Results for "${q}"`
@@ -300,6 +297,7 @@ export default function Products() {
             id="product-filters"
             className={`filters-panel ${filtersOpen ? "is-open" : ""
               }`}
+            hidden={!filtersOpen}
           >
             <form
               className="filters"
@@ -310,10 +308,6 @@ export default function Products() {
             >
               <div className="filters-header">
                 <div>
-                  <p className="eyebrow">
-                    Refine results
-                  </p>
-
                   <h2>Filter products</h2>
                 </div>
 
@@ -508,6 +502,6 @@ export default function Products() {
           </section>
         </div>
       </div>
-    </main>
+    </div>
   )
 }

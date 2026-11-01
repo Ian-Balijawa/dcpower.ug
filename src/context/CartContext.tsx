@@ -62,14 +62,9 @@ export function CartProvider({ children }: { children: ReactNode }) {
     })
     return {
       lines,
-      // count: lines.reduce((n, l) => n + l.qty, 0),
-      count: lines.length,
+      count: lines.reduce((n, l) => n + l.qty, 0),
       total: lines.reduce((n, l) => n + (l.product.price ?? 0) * l.qty, 0),
-      add: (id, qty = 1) => {
-        if (lines.some(l => l.product.id === id))
-          return;
-        return d({ t: "add", id, qty })
-      },
+      add: (id, qty = 1) => d({ t: "add", id, qty }),
       setQty: (id, qty) => d({ t: "set", id, qty }),
       getQty: (id) => lines.find(l => l.product.slug === id)?.qty || 0,
       remove: (id) => d({ t: "rm", id }),

@@ -38,11 +38,9 @@ export default function Contact() {
   }
 
   return (
-    <main>
+    <div>
       <section className="wrap pad contact-hero">
         <div className="prose">
-          <p className="eyebrow">GET IN TOUCH</p>
-
           <h1>Let's talk about your power needs.</h1>
 
           <p className="lead">
@@ -56,8 +54,6 @@ export default function Contact() {
       <section className="wrap contact-layout">
         <div className="contact-info">
           <div className="contact-card">
-            <p className="eyebrow">CONTACT DC POWER</p>
-
             <h2>We're here to help.</h2>
 
             <p>
@@ -108,7 +104,6 @@ export default function Contact() {
 
         <div className="contact-form-wrap">
           <div className="contact-form-head">
-            <p className="eyebrow">START A CONVERSATION</p>
             <h2>Tell us what you need.</h2>
             <p>
               The more information you provide, the easier it is for us to
@@ -165,6 +160,6 @@ export default function Contact() {
           </form>
         </div>
       </section>
-    </main>
+    </div>
   )
 }

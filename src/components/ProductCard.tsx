@@ -21,9 +21,9 @@ export default function ProductCard({ p }: { p: Product }) {
       <div className="card-body">
         <p className="muted small">{p.brand}</p>
         <h3>
-          <Link to={`/products/${p.slug}`}>{p.name.slice(0, 80)}...</Link>
+          <Link to={`/products/${p.slug}`}>{p.name}</Link>
         </h3>
-        <p className="muted small">{p.summary.slice(0, 100)}...</p>
+        <p className="muted small">{p.summary}</p>
         <div className="card-foot">
           <strong className={p.price === null ? "quote" : ""}>{ugx(p.price)}</strong>
           <button

@@ -18,7 +18,7 @@ export interface Product {
   name: string
   brand: string
   category: Category
-  price: number,
+  price: number | null
   oldPrice?: number | null
   stock?: {
     status: "in_stock" | "out_of_stock" | "pre_order"
@@ -259,7 +259,7 @@ export const PRODUCTS: Product[] = [
     brand: "Jinko Solar",
     category: "Solar Panels & Lighting",
     // Price was not provided in the supplied product data.
-    price: 0,
+    price: null,
     stock: {
       status: "in_stock",
     },
@@ -1184,7 +1184,7 @@ export const PRODUCTS: Product[] = [
     name: "Blue Carbon SuperBright Flood BCT-WR4.0 3000LM",
     brand: "Blue Carbon",
     category: "Solar Flood Lights",
-    price: 0,
+    price: null,
     oldPrice: null,
     sku: "BCT-WR4.0",
     stock: { status: "in_stock" },
@@ -1269,7 +1269,7 @@ export const PRODUCTS: Product[] = [
       "Blue Carbon BCT-WR1.0 Solar Garden & Street Flood Light 800LM",
     brand: "Blue Carbon",
     category: "Solar Flood Lights",
-    price: 0,
+    price: null,
     oldPrice: null,
     sku: "BCT-WR1.0",
     stock: { status: "in_stock" },
@@ -1347,7 +1347,7 @@ export const PRODUCTS: Product[] = [
       "Blue Carbon BCT-WW3.0 100W Solar Flood Light with Remote Control",
     brand: "Blue Carbon",
     category: "Solar Flood Lights",
-    price: 0,
+    price: null,
     oldPrice: null,
     sku: "BCT-WW3.0",
     stock: { status: "in_stock" },

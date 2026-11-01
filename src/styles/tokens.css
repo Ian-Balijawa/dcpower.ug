@@ -1,26 +1,26 @@
 /* Design tokens. Change the brand here and it updates everywhere. */
 :root {
   --cell: #0c2b4a;
-  --cell-2: #14416c;
+  --cell-2: #174a77;
   --sun: #ffb400;
   --sun-ink: #2e1f00;
-  --lake: #0f6e6e;
-  --sky: #e6eff5;
-  --paper: #f8fafb;
+  --lake: #0d6179;
+  --sky: #eaf1f7;
+  --paper: #f7f9fc;
   --ink: #14202c;
-  --mute: #546372;
-  --line: #d3dee6;
+  --mute: #4f6173;
+  --line: #cfdae5;
   --f-display: "Bricolage Grotesque", system-ui, sans-serif;
   --f-body: "Figtree", system-ui, sans-serif;
   --s1: 0.5rem;
   --s2: 1rem;
   --s3: 1.5rem;
-  --s4: 2.5rem;
-  --s5: 5rem;
-  --r-card: 12px;
-  --r-btn: 4px;
-  --max: 1180px;
-  --t-h1: clamp(2.4rem, 6vw, 4.6rem);
-  --t-h2: clamp(1.6rem, 3vw, 2.3rem);
+  --s4: 3.5rem;
+  --s5: 5.5rem;
+  --r-card: 16px;
+  --r-btn: 10px;
+  --max: 1240px;
+  --t-h1: clamp(2.7rem, 5.6vw, 5.1rem);
+  --t-h2: clamp(1.9rem, 3.2vw, 2.8rem);
   --t-h3: 1.15rem;
 }
