@@ -1,11 +1,11 @@
 export default function QtyStepper({
   value,
   onChange,
-  label
+  label,
 }: {
-  value: number
-  onChange: (n: number) => void
-  label: string
+  value: number;
+  onChange: (n: number) => void;
+  label: string;
 }) {
   return (
     <div className="qty" role="group" aria-label={`Quantity for ${label}`}>
@@ -28,5 +28,5 @@ export default function QtyStepper({
         +
       </button>
     </div>
-  )
+  );
 }

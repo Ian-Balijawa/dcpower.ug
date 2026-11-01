@@ -1,19 +1,19 @@
-import { useEffect, useRef } from "react"
-import { Link } from "react-router-dom"
-import { waLink } from "../lib/whatsapp"
+import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
+import { waLink } from '../lib/whatsapp';
 export default function Hero() {
-  const ref = useRef<HTMLElement>(null)
+  const ref = useRef<HTMLElement>(null);
   useEffect(() => {
-    const el = ref.current
-    if (!el) return
+    const el = ref.current;
+    if (!el) return;
     const move = (e: PointerEvent) => {
-      const r = el.getBoundingClientRect()
-      el.style.setProperty("--mx", `${((e.clientX - r.left) / r.width) * 100}%`)
-      el.style.setProperty("--my", `${((e.clientY - r.top) / r.height) * 100}%`)
-    }
-    el.addEventListener("pointermove", move)
-    return () => el.removeEventListener("pointermove", move)
-  }, [])
+      const r = el.getBoundingClientRect();
+      el.style.setProperty('--mx', `${((e.clientX - r.left) / r.width) * 100}%`);
+      el.style.setProperty('--my', `${((e.clientY - r.top) / r.height) * 100}%`);
+    };
+    el.addEventListener('pointermove', move);
+    return () => el.removeEventListener('pointermove', move);
+  }, []);
   return (
     <section className="hero" ref={ref}>
       <div className="wrap hero-in">
@@ -29,7 +29,7 @@ export default function Hero() {
             </Link>
             <a
               className="btn btn-ghost"
-              href={waLink("Hello DC Power, I would like a free solar quote.")}
+              href={waLink('Hello DC Power, I would like a free solar quote.')}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -38,7 +38,11 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-art">
-          <Link className="hero-photo-frame" to="/gallery" aria-label="Explore DC Power project photos">
+          <Link
+            className="hero-photo-frame"
+            to="/gallery"
+            aria-label="Explore DC Power project photos"
+          >
             <img
               className="hero-photo-main"
               src="/images/gallery/dcpower/PHOTO-2026-10-20-22-42-51.jpg"
@@ -53,11 +57,13 @@ export default function Hero() {
             />
             <span className="hero-photo-caption">
               <span>Powering homes and businesses</span>
-              <strong>See our project gallery <span aria-hidden="true">↗</span></strong>
+              <strong>
+                See our project gallery <span aria-hidden="true">↗</span>
+              </strong>
             </span>
           </Link>
         </div>
       </div>
     </section>
-  )
+  );
 }

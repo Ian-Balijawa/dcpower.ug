@@ -1,41 +1,41 @@
-import { useState, type FormEvent } from "react"
-import { SITE } from "../config"
-import { useSeo } from "../hooks/useSeo"
-import { waLink } from "../lib/whatsapp"
+import { useState, type FormEvent } from 'react';
+import { SITE } from '../config';
+import { useSeo } from '../hooks/useSeo';
+import { waLink } from '../lib/whatsapp';
 
 export default function Contact() {
   useSeo({
-    title: "Contact DC Power | Solar Quotes & Support in Uganda",
+    title: 'Contact DC Power | Solar Quotes & Support in Uganda',
     description:
-      "Contact DC Power for solar product enquiries, system quotations, installation and support in Uganda.",
-    path: "/contact"
-  })
+      'Contact DC Power for solar product enquiries, system quotations, installation and support in Uganda.',
+    path: '/contact',
+  });
 
-  const [err, setErr] = useState("")
+  const [err, setErr] = useState('');
 
   const submit = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
+    e.preventDefault();
 
-    const f = new FormData(e.currentTarget)
-    const name = String(f.get("name") ?? "").trim()
-    const phone = String(f.get("phone") ?? "").trim()
-    const message = String(f.get("message") ?? "").trim()
+    const f = new FormData(e.currentTarget);
+    const name = String(f.get('name') ?? '').trim();
+    const phone = String(f.get('phone') ?? '').trim();
+    const message = String(f.get('message') ?? '').trim();
 
     if (!name || !phone || !message) {
-      setErr("Please fill in your name, phone number and message.")
-      return
+      setErr('Please fill in your name, phone number and message.');
+      return;
     }
 
-    setErr("")
+    setErr('');
 
     window.open(
       waLink(
-        `Hello DC Power,\n\nMy name is ${name} and my phone number is ${phone}.\n\n${message}`
+        `Hello DC Power,\n\nMy name is ${name} and my phone number is ${phone}.\n\n${message}`,
       ),
-      "_blank",
-      "noopener"
-    )
-  }
+      '_blank',
+      'noopener',
+    );
+  };
 
   return (
     <div>
@@ -44,9 +44,8 @@ export default function Contact() {
           <h1>Let's talk about your power needs.</h1>
 
           <p className="lead">
-            Looking for a solar system, a specific product, an installation
-            or support with an existing system? Tell us what you need and
-            we'll help you work out the next step.
+            Looking for a solar system, a specific product, an installation or support with an
+            existing system? Tell us what you need and we'll help you work out the next step.
           </p>
         </div>
       </section>
@@ -57,8 +56,7 @@ export default function Contact() {
             <h2>We're here to help.</h2>
 
             <p>
-              Give us a call, send an email, or use the form to start a
-              conversation on WhatsApp.
+              Give us a call, send an email, or use the form to start a conversation on WhatsApp.
             </p>
 
             <address>
@@ -69,12 +67,8 @@ export default function Contact() {
 
               <div className="contact-detail">
                 <span className="contact-label">Phone</span>
-                <a href={`tel:${SITE.phone.replace(/\s/g, "")}`}>
-                  {SITE.phone}
-                </a>
-                <a href={`tel:${SITE.otherPhone.replace(/\s/g, "")}`}>
-                  {SITE.otherPhone}
-                </a>
+                <a href={`tel:${SITE.phone.replace(/\s/g, '')}`}>{SITE.phone}</a>
+                <a href={`tel:${SITE.otherPhone.replace(/\s/g, '')}`}>{SITE.otherPhone}</a>
               </div>
 
               <div className="contact-detail">
@@ -106,20 +100,15 @@ export default function Contact() {
           <div className="contact-form-head">
             <h2>Tell us what you need.</h2>
             <p>
-              The more information you provide, the easier it is for us to
-              understand your requirements.
+              The more information you provide, the easier it is for us to understand your
+              requirements.
             </p>
           </div>
 
           <form onSubmit={submit} noValidate className="form contact-form">
             <label>
               Your name
-              <input
-                name="name"
-                autoComplete="name"
-                placeholder="Enter your name"
-                required
-              />
+              <input name="name" autoComplete="name" placeholder="Enter your name" required />
             </label>
 
             <label>
@@ -154,12 +143,11 @@ export default function Contact() {
             </button>
 
             <p className="muted small">
-              Your message will open in WhatsApp so you can review it before
-              sending.
+              Your message will open in WhatsApp so you can review it before sending.
             </p>
           </form>
         </div>
       </section>
     </div>
-  )
+  );
 }

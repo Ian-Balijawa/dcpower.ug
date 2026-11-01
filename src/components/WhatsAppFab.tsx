@@ -1,9 +1,9 @@
-import { waLink } from "../lib/whatsapp"
+import { waLink } from '../lib/whatsapp';
 export default function WhatsAppFab() {
   return (
     <a
       className="fab"
-      href={waLink("Hello DC Power, I need help choosing a solar system.")}
+      href={waLink('Hello DC Power, I need help choosing a solar system.')}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with DC Power on WhatsApp"
@@ -16,5 +16,5 @@ export default function WhatsAppFab() {
       </svg>
       <span>Chat with us</span>
     </a>
-  )
+  );
 }

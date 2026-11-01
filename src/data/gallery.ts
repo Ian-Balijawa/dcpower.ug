@@ -49,4 +49,4 @@ export const GALLERY_IMAGES = [
   '/images/gallery/dcpower/PHOTO-2026-10-20-22-45-04.jpg',
   '/images/gallery/dcpower/PHOTO-2026-10-20-22-45-05 2.jpg',
   '/images/gallery/dcpower/PHOTO-2026-10-20-22-45-05.jpg',
-] as const
+] as const;

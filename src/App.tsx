@@ -1,21 +1,21 @@
-import { lazy, Suspense, useEffect } from "react"
-import { Route, Routes, useLocation } from "react-router-dom"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import WhatsAppFab from "./components/WhatsAppFab"
-const Home = lazy(() => import("./pages/Home"))
-const Products = lazy(() => import("./pages/Products"))
-const ProductDetail = lazy(() => import("./pages/ProductDetail"))
-const Cart = lazy(() => import("./pages/Cart"))
-const About = lazy(() => import("./pages/About"))
-const Contact = lazy(() => import("./pages/Contact"))
-const Gallery = lazy(() => import("./pages/Gallery"))
-const NotFound = lazy(() => import("./pages/NotFound"))
+import { lazy, Suspense, useEffect } from 'react';
+import { Route, Routes, useLocation } from 'react-router-dom';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import WhatsAppFab from './components/WhatsAppFab';
+const Home = lazy(() => import('./pages/Home'));
+const Products = lazy(() => import('./pages/Products'));
+const ProductDetail = lazy(() => import('./pages/ProductDetail'));
+const Cart = lazy(() => import('./pages/Cart'));
+const About = lazy(() => import('./pages/About'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Gallery = lazy(() => import('./pages/Gallery'));
+const NotFound = lazy(() => import('./pages/NotFound'));
 export default function App() {
-  const { pathname } = useLocation()
+  const { pathname } = useLocation();
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [pathname])
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <>
       <a className="skip" href="#main">
@@ -40,5 +40,5 @@ export default function App() {
       <Footer />
       <WhatsAppFab />
     </>
-  )
+  );
 }

@@ -1,20 +1,20 @@
-import { useCallback, useState } from "react"
-import ImageDetail from "../components/ImageDetail"
-import { GALLERY_IMAGES } from "../data/gallery"
-import { useSeo } from "../hooks/useSeo"
-import "../styles/gallery.css"
+import { useCallback, useState } from 'react';
+import ImageDetail from '../components/ImageDetail';
+import { GALLERY_IMAGES } from '../data/gallery';
+import { useSeo } from '../hooks/useSeo';
+import '../styles/gallery.css';
 
 export default function Gallery() {
-  const [activeIndex, setActiveIndex] = useState<number | null>(null)
-  const closeDetail = useCallback(() => setActiveIndex(null), [])
-  const changeImage = useCallback((index: number) => setActiveIndex(index), [])
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const closeDetail = useCallback(() => setActiveIndex(null), []);
+  const changeImage = useCallback((index: number) => setActiveIndex(index), []);
 
   useSeo({
-    title: "Project Gallery",
+    title: 'Project Gallery',
     description:
       "Explore DC Power's solar installations, equipment and project photos from across Uganda.",
-    path: "/gallery",
-  })
+    path: '/gallery',
+  });
 
   return (
     <div className="gallery-page">
@@ -22,8 +22,8 @@ export default function Gallery() {
         <header className="gallery-heading">
           <h1>DC Power in action</h1>
           <p>
-            A look at the people, products and solar projects that keep homes
-            and businesses powered.
+            A look at the people, products and solar projects that keep homes and businesses
+            powered.
           </p>
           <span className="gallery-total">{GALLERY_IMAGES.length} photos</span>
         </header>
@@ -40,7 +40,7 @@ export default function Gallery() {
               <img
                 src={src}
                 alt={`DC Power gallery image ${index + 1}`}
-                loading={index < 8 ? "eager" : "lazy"}
+                loading={index < 8 ? 'eager' : 'lazy'}
                 decoding="async"
               />
               <span className="gallery-tile-action" aria-hidden="true">
@@ -60,5 +60,5 @@ export default function Gallery() {
         />
       )}
     </div>
-  )
+  );
 }

@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom"
-import QtyStepper from "../components/QtyStepper"
-import { useCart } from "../context/CartContext"
-import { useSeo } from "../hooks/useSeo"
-import { ugx } from "../lib/format"
-import { orderLink } from "../lib/whatsapp"
+import { Link } from 'react-router-dom';
+import QtyStepper from '../components/QtyStepper';
+import { useCart } from '../context/CartContext';
+import { useSeo } from '../hooks/useSeo';
+import { ugx } from '../lib/format';
+import { orderLink } from '../lib/whatsapp';
 export default function Cart() {
-  const { lines, total, count, setQty, remove, clear } = useCart()
-  const hasPricedItems = lines.some(({ product }) => product.price !== null)
+  const { lines, total, count, setQty, remove, clear } = useCart();
+  const hasPricedItems = lines.some(({ product }) => product.price !== null);
   useSeo({
-    title: "Your cart",
-    description: "Review your solar products and send your order on WhatsApp.",
-    path: "/cart"
-  })
+    title: 'Your cart',
+    description: 'Review your solar products and send your order on WhatsApp.',
+    path: '/cart',
+  });
   if (!lines.length)
     return (
       <div className="wrap pad">
@@ -21,7 +21,7 @@ export default function Cart() {
           Browse products
         </Link>
       </div>
-    )
+    );
   return (
     <div className="wrap pad">
       <h1>Your cart ({count})</h1>
@@ -46,7 +46,8 @@ export default function Cart() {
       </ul>
       <div className="sum">
         <p>
-          {hasPricedItems ? "Priced items subtotal" : "Price"} <strong>{hasPricedItems ? ugx(total) : "On request"}</strong>
+          {hasPricedItems ? 'Priced items subtotal' : 'Price'}{' '}
+          <strong>{hasPricedItems ? ugx(total) : 'On request'}</strong>
         </p>
         <p className="muted small">
           Quote-only items are confirmed on WhatsApp. Delivery and installation are quoted
@@ -67,5 +68,5 @@ export default function Cart() {
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -1,26 +1,16 @@
-import { Link } from "react-router-dom"
-import { SITE } from "../config"
+import { Link } from 'react-router-dom';
+import { SITE } from '../config';
 
 export default function Footer() {
   return (
     <footer className="ftr">
       <div className="wrap ftr-in">
         <div>
-          <Link
-            to="/"
-            className="logo footer-logo"
-            aria-label="DC Power Uganda home"
-          >
-            <img
-              src="/images/logo.jpeg"
-              alt="DC Power"
-              className="logo-img"
-            />
+          <Link to="/" className="logo footer-logo" aria-label="DC Power Uganda home">
+            <img src="/images/logo.jpeg" alt="DC Power" className="logo-img" />
           </Link>
 
-          <p className="small">
-            Solar systems supplied and installed across Uganda.
-          </p>
+          <p className="small">Solar systems supplied and installed across Uganda.</p>
         </div>
 
         <nav aria-label="Footer">
@@ -34,17 +24,11 @@ export default function Footer() {
         <address className="small">
           {SITE.address}
           <br />
-          <a href={`tel:${SITE.phone.replace(/\s/g, "")}`}>
-            {SITE.phone}
-          </a>
+          <a href={`tel:${SITE.phone.replace(/\s/g, '')}`}>{SITE.phone}</a>
           <br />
-          <a href={`tel:${SITE.otherPhone.replace(/\s/g, "")}`}>
-            {SITE.otherPhone}
-          </a>
+          <a href={`tel:${SITE.otherPhone.replace(/\s/g, '')}`}>{SITE.otherPhone}</a>
           <br />
-          <a href={`mailto:${SITE.email}`}>
-            {SITE.email}
-          </a>
+          <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
           <br />
           {SITE.hours}
         </address>
@@ -54,5 +38,5 @@ export default function Footer() {
         &copy; {new Date().getFullYear()} {SITE.name}
       </p>
     </footer>
-  )
+  );
 }

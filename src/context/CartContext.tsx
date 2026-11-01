@@ -1,81 +1,81 @@
-import { createContext, useContext, useEffect, useMemo, useReducer, type ReactNode } from "react"
-import { type Product } from "../data/products"
-import { bySlug } from "../lib/helpers";
+import { createContext, useContext, useEffect, useMemo, useReducer, type ReactNode } from 'react';
+import { type Product } from '../data/products';
+import { bySlug } from '../lib/helpers';
 
-type Line = { id: string; qty: number }
+type Line = { id: string; qty: number };
 
-type Act = { t: "add" | "set"; id: string; qty: number } | { t: "rm"; id: string } | { t: "clear" }
+type Act = { t: 'add' | 'set'; id: string; qty: number } | { t: 'rm'; id: string } | { t: 'clear' };
 
-const KEY = "dcpower-cart"
+const KEY = 'dcpower-cart';
 
-const clamp = (n: number) => Math.min(99, Math.max(1, n))
+const clamp = (n: number) => Math.min(99, Math.max(1, n));
 
 function reduce(s: Line[], a: Act): Line[] {
   switch (a.t) {
-    case "add":
+    case 'add':
       return s.some((l) => l.id === a.id)
         ? s.map((l) => (l.id === a.id ? { ...l, qty: clamp(l.qty + a.qty) } : l))
-        : [...s, { id: a.id, qty: clamp(a.qty) }]
-    case "set":
-      return s.map((l) => (l.id === a.id ? { ...l, qty: clamp(a.qty) } : l))
-    case "rm":
-      return s.filter((l) => l.id !== a.id)
-    case "clear":
-      return []
+        : [...s, { id: a.id, qty: clamp(a.qty) }];
+    case 'set':
+      return s.map((l) => (l.id === a.id ? { ...l, qty: clamp(a.qty) } : l));
+    case 'rm':
+      return s.filter((l) => l.id !== a.id);
+    case 'clear':
+      return [];
   }
 }
 
 const load = (): Line[] => {
   try {
-    return JSON.parse(localStorage.getItem(KEY) ?? "[]")
+    return JSON.parse(localStorage.getItem(KEY) ?? '[]');
   } catch {
-    return []
+    return [];
   }
-}
+};
 
 interface Ctx {
-  lines: { product: Product; qty: number }[]
-  count: number
-  total: number
-  add: (id: string, qty?: number) => void
-  setQty: (id: string, qty: number) => void
-  getQty: (id: string) => number
-  remove: (id: string) => void
-  clear: () => void
+  lines: { product: Product; qty: number }[];
+  count: number;
+  total: number;
+  add: (id: string, qty?: number) => void;
+  setQty: (id: string, qty: number) => void;
+  getQty: (id: string) => number;
+  remove: (id: string) => void;
+  clear: () => void;
 }
 
-const Context = createContext<Ctx | null>(null)
+const Context = createContext<Ctx | null>(null);
 
 export function CartProvider({ children }: { children: ReactNode }) {
-  const [s, d] = useReducer(reduce, [], load)
+  const [s, d] = useReducer(reduce, [], load);
   useEffect(() => {
     try {
-      localStorage.setItem(KEY, JSON.stringify(s))
+      localStorage.setItem(KEY, JSON.stringify(s));
     } catch {
       /* storage unavailable */
     }
-  }, [s])
+  }, [s]);
   const v = useMemo<Ctx>(() => {
     const lines = s.flatMap((l) => {
-      const product = bySlug(l.id)
-      return product ? [{ product, qty: l.qty }] : []
-    })
+      const product = bySlug(l.id);
+      return product ? [{ product, qty: l.qty }] : [];
+    });
     return {
       lines,
       count: lines.reduce((n, l) => n + l.qty, 0),
       total: lines.reduce((n, l) => n + (l.product.price ?? 0) * l.qty, 0),
-      add: (id, qty = 1) => d({ t: "add", id, qty }),
-      setQty: (id, qty) => d({ t: "set", id, qty }),
-      getQty: (id) => lines.find(l => l.product.slug === id)?.qty || 0,
-      remove: (id) => d({ t: "rm", id }),
-      clear: () => d({ t: "clear" })
-    }
-  }, [s])
-  return <Context.Provider value={v}>{children}</Context.Provider>
+      add: (id, qty = 1) => d({ t: 'add', id, qty }),
+      setQty: (id, qty) => d({ t: 'set', id, qty }),
+      getQty: (id) => lines.find((l) => l.product.slug === id)?.qty || 0,
+      remove: (id) => d({ t: 'rm', id }),
+      clear: () => d({ t: 'clear' }),
+    };
+  }, [s]);
+  return <Context.Provider value={v}>{children}</Context.Provider>;
 }
 
 export const useCart = () => {
-  const context = useContext(Context)
-  if (!context) throw new Error("CartProvider missing")
-  return context
-}
+  const context = useContext(Context);
+  if (!context) throw new Error('CartProvider missing');
+  return context;
+};
