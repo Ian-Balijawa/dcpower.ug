@@ -45,13 +45,13 @@ export default function Hero() {
           >
             <img
               className="hero-photo-main"
-              src="/images/gallery/dcpower/PHOTO-2026-10-20-22-42-51.jpg"
+              src="/images/gallery/dcpower/PHOTO-2026-10-20-22-22-10 2.jpg"
               alt="DC Power technicians preparing solar panels for installation"
               fetchPriority="high"
             />
             <img
               className="hero-photo-detail"
-              src="/images/gallery/dcpower/PHOTO-2026-10-20-22-43-11.jpg"
+              src="/images/gallery/dcpower/PHOTO-2026-10-20-22-43-06 2.jpg"
               alt=""
               loading="lazy"
             />
