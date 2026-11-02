@@ -259,7 +259,7 @@ export const PRODUCTS: Product[] = [
     brand: 'Jinko Solar',
     category: 'Solar Panels & Lighting',
     // Price was not provided in the supplied product data.
-    price: null,
+    price: 470000,
     stock: {
       status: 'in_stock',
     },
@@ -1513,7 +1513,7 @@ export const PRODUCTS: Product[] = [
     name: 'DC Power UG Energy 1.8kWp-5kWh-4kVA Complete Smart Hybrid Solar Power System; 6-8kWh Daily Yield, WiFi App Monitoring, Automatic Switchover In Uganda',
     brand: 'DC Power UG Energy',
     category: 'Complete Solar Systems & Kits',
-    price: 0,
+    price: 8200000,
     stock: {
       status: 'pre_order',
     },
@@ -1643,7 +1643,7 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 50kVA/50kW 3-Phase High Voltage Hybrid Solar Inverter T-REX-50KHP3G01; 75kWp PV Input, 180-750V Battery Range, Dual MPPT, IP65, Smart Energy Management, Remote Monitoring Via Wi-Fi In Uganda',
     brand: 'Felicity',
     category: 'Commercial & Industrial Solar',
-    price: 0,
+    price: 15800000,
     stock: {
       status: 'pre_order',
     },
@@ -1716,7 +1716,7 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 12kW 48V 3-Phase Hybrid Solar Inverter IVGM12KLP3G1; 18kW PV, 800V Voc, 160-650V MPPT, 2 MPPT, 240A, IP65, WiFi, Gen In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 0,
+    price: 8000000,
     stock: {
       status: 'pre_order',
     },
@@ -1747,7 +1747,7 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 12kW 48V Single Phase Hybrid Solar Inverter IVEM12048-II; 15kW PV, 500V Voc, 90-450V MPPT, 2 PV Inputs, 240A Charge, WiFi, Gen In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 0,
+    price: 3490000,
     stock: {
       status: 'pre_order',
     },
@@ -2017,7 +2017,7 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 100A 48V MPPT Solar Charge Controller SCCM10048; 195V/100A, Up To 5,500Wpv @ 48V, 2750Wpv @24V, 1375Wpv @12V In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 0,
+    price: 1000000,
     stock: {
       status: 'pre_order',
     },
@@ -2050,7 +2050,7 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity Solar 2kW/2kVA 24V Hybrid Solar Inverter IVCM2024 PRO; Built-in MPPT Solar Charge Controller, 230Vac Output, 90-280Vac Input, LCD Display, Generator Compatible In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 0,
+    price: 970000,
     stock: {
       status: 'pre_order',
     },
@@ -2302,7 +2302,7 @@ export const PRODUCTS: Product[] = [
     name: 'Felicity 8kW 48V Single Phase Hybrid Solar Inverter IVEM8048-II; 10kWp PV, 500V Voc, 90-450V MPPT, 2 PV Inputs, 150A Charge, WiFi, Gen In Uganda',
     brand: 'Felicity',
     category: 'Inverters, Chargers & MPPTs',
-    price: 0,
+    price: 3500000,
     stock: {
       status: 'pre_order',
     },
@@ -2406,7 +2406,7 @@ export const PRODUCTS: Product[] = [
     name: 'Deye 3kVA/3kW 24V Single Phase Hybrid Inverter SUN-3K-SG04LP1-24-EU; 1 MPPT, 6kWp/4.8kWp PV Access/Input, 500Vdc, 150–425V MPPT Range, 140A Charge/Discharge, WiFi/4G Monitoring, IP65 In Uganda',
     brand: 'Deye',
     category: 'Inverters, Chargers & MPPTs',
-    price: 0,
+    price: 3200000,
     stock: {
       status: 'pre_order',
     },
@@ -3404,33 +3404,6 @@ export const PRODUCTS: Product[] = [
     featured: false,
   },
   {
-    id: 'dyness-dcpower-shop',
-    slug: 'dyness-dcpower-shop',
-    name: 'Dyness - DC Power UG.shop',
-    brand: 'Dyness',
-    category: 'Solar Panels & Lighting',
-    price: 0,
-    stock: {
-      status: 'pre_order',
-    },
-    summary: 'Dyness - DC Power UG.shop',
-    description:
-      'Dyness - DC Power UG.shop. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.',
-    features: [],
-    specs: [['Source title', 'Dyness - DC Power UG.shop']],
-    images: [
-      'https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-STACK100-921.6kWh-LiFePO%E2%82%84-High-Voltage-Lithium-Battery-System-600x450.png',
-      'https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-STACK100-921.6kWh-LiFePO%E2%82%84-High-Voltage-Lithium-Battery-System.png',
-      'https://99016cb2.delivery.rocketcdn.me/wp-content/uploads/2026/03/Dyness-STACK100-230.4kWh-Industrial-High-Voltage-LiFePO%E2%82%84-Lithium-Battery-System-600x450.png',
-    ],
-    support:
-      'DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.',
-    installation: [],
-    applications: [],
-    paymentOptions: [],
-    featured: false,
-  },
-  {
     id: 'dyness-stack100-5-12kwh-51-2v-lifepo4-high-voltage-lithium-battery-module-100ah-1c-charge-discharge-can-rs485-cable-free-stackable-design-scalable-to-921-6kwh-10-year-warranty-in-uganda',
     slug: 'dyness-stack100-5-12kwh-51-2v-lifepo4-high-voltage-lithium-battery-module-100ah-1c-charge-discharge-can-rs485-cable-free-stackable-design-scalable-to-921-6kwh-10-year-warranty-in-uganda',
     name: 'Dyness STACK100 5.12kWh 51.2V LiFePO4 High-Voltage Lithium Battery Module; 100Ah, 1C Charge/Discharge, CAN/RS485, Cable-Free Stackable Design, Scalable To 921.6kWh, 10-Year Warranty In Uganda',
@@ -3802,7 +3775,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon - Blue Carbon All In One Solar Power Street Light 100W Solar Lamp Integrated Led Solar Street Light 8-10m - bluecarbontech.com',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 0,
+    price: 650000,
     stock: {
       status: 'pre_order',
     },
@@ -3840,7 +3813,7 @@ export const PRODUCTS: Product[] = [
     name: '24V Municipal Street Light (BCT-OLM-B) - Blue Carbon Solar Lights',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 0,
+    price: 550000,
     stock: {
       status: 'pre_order',
     },
@@ -3872,7 +3845,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon Mini Simplify Light Outdoor 5m 20W Solar Street Light System Low Price - Solar Light, Solar LED Street Light | Made-in-China.com',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 0,
+    price: 850000,
     stock: {
       status: 'pre_order',
     },
@@ -3909,7 +3882,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon Solar Products – Lithium Batteries, Solar Panels, Street Lights & More | Blue Carbon Nigeria',
     brand: 'Blue Carbon',
     category: 'Solar Panels & Lighting',
-    price: 0,
+    price: 600000,
     stock: {
       status: 'pre_order',
     },
@@ -3947,7 +3920,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon Wawa Light 3.0 | Blue Carbon Nigeria',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 0,
+    price: 250000,
     stock: {
       status: 'pre_order',
     },
@@ -3967,24 +3940,98 @@ export const PRODUCTS: Product[] = [
     featured: false,
   },
   {
-    id: 'blue-carbon-200w-300w-400w-500w-professional-ip66-waterproof-outdoor-garden-floodlight-solar-led-flood-light-solar-sport-light-blue-carbon-made-in-china-com',
-    slug: 'blue-carbon-200w-300w-400w-500w-professional-ip66-waterproof-outdoor-garden-floodlight-solar-led-flood-light-solar-sport-light-blue-carbon-made-in-china-com',
-    name: 'Blue Carbon 200W 300W 400W 500W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
+    id: 'blue-carbon-300w-professional-ip66-waterproof-outdoor-garden-floodlight-solar-led-flood-light-solar-sport-light-blue-carbon-made-in-china-com',
+    slug: 'blue-carbon-300w-professional-ip66-waterproof-outdoor-garden-floodlight-solar-led-flood-light-solar-sport-light-blue-carbon-made-in-china-com',
+    name: 'Blue Carbon 300W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
     brand: 'Blue Carbon',
     category: 'Solar Flood Lights',
-    price: 0,
+    price: 280000,
     stock: {
       status: 'pre_order',
     },
     summary:
-      'Blue Carbon 200W 300W 400W 500W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
+      'Blue Carbon 300W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
     description:
-      'Blue Carbon 200W 300W 400W 500W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.',
+      'Blue Carbon 300W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.',
     features: [],
     specs: [
       [
         'Source title',
-        'Blue Carbon 200W 300W 400W 500W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
+        'Blue Carbon 300W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
+      ],
+    ],
+    images: [
+      'https://image.made-in-china.com/155f0j00atzoIBrAOCqT/Blue-Carbon-200W-300W-400W-500W-Professional-IP66-Waterproof-Outdoor-Garden-Floodlight-Solar-LED-Flood-Light.webp',
+      'https://www.made-in-china.com/sendInquiry/prod_xFNGEwXAfOWD_oqbJTdMDCGlc.html?plant=en&from=shrom&type=down&page=p_detail',
+    ],
+    support:
+      'DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.',
+    installation: [],
+    applications: [
+      'Outdoor lighting',
+      'Roads and streets',
+      'Compounds',
+      'Commercial outdoor areas',
+    ],
+    paymentOptions: [],
+    featured: false,
+  },
+  {
+    id: 'blue-carbon-400w-professional-ip66-waterproof-outdoor-garden-floodlight-solar-led-flood-light-solar-sport-light-blue-carbon-made-in-china-com',
+    slug: 'blue-carbon-400w-professional-ip66-waterproof-outdoor-garden-floodlight-solar-led-flood-light-solar-sport-light-blue-carbon-made-in-china-com',
+    name: 'Blue Carbon 400W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
+    brand: 'Blue Carbon',
+    category: 'Solar Flood Lights',
+    price: 420000,
+    stock: {
+      status: 'pre_order',
+    },
+    summary:
+      'Blue Carbon 400W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
+    description:
+      'Blue Carbon 400W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.',
+    features: [],
+    specs: [
+      [
+        'Source title',
+        'Blue Carbon 400W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
+      ],
+    ],
+    images: [
+      'https://image.made-in-china.com/155f0j00atzoIBrAOCqT/Blue-Carbon-200W-300W-400W-500W-Professional-IP66-Waterproof-Outdoor-Garden-Floodlight-Solar-LED-Flood-Light.webp',
+      'https://www.made-in-china.com/sendInquiry/prod_xFNGEwXAfOWD_oqbJTdMDCGlc.html?plant=en&from=shrom&type=down&page=p_detail',
+    ],
+    support:
+      'DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.',
+    installation: [],
+    applications: [
+      'Outdoor lighting',
+      'Roads and streets',
+      'Compounds',
+      'Commercial outdoor areas',
+    ],
+    paymentOptions: [],
+    featured: false,
+  },
+  {
+    id: 'blue-carbon-500w-professional-ip66-waterproof-outdoor-garden-floodlight-solar-led-flood-light-solar-sport-light-blue-carbon-made-in-china-com',
+    slug: 'blue-carbon-500w-professional-ip66-waterproof-outdoor-garden-floodlight-solar-led-flood-light-solar-sport-light-blue-carbon-made-in-china-com',
+    name: 'Blue Carbon 500W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
+    brand: 'Blue Carbon',
+    category: 'Solar Flood Lights',
+    price: 500000,
+    stock: {
+      status: 'pre_order',
+    },
+    summary:
+      'Blue Carbon 500W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
+    description:
+      'Blue Carbon 500W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.',
+    features: [],
+    specs: [
+      [
+        'Source title',
+        'Blue Carbon 500W Professional IP66 Waterproof Outdoor Garden Floodlight Solar LED Flood Light - Solar Sport Light, Blue Carbon | Made-in-China.com',
       ],
     ],
     images: [
@@ -4041,7 +4088,7 @@ export const PRODUCTS: Product[] = [
     name: 'Customized Blue Carbon - Street Light Solar Street Light Manufacturers From China | Blue Carbon - bluecarbontech.com',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 0,
+    price: 950000,
     stock: {
       status: 'pre_order',
     },
@@ -4079,7 +4126,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon Factory Solar Street Light 50W Power LED Street Light Outdoor Price for Sale - LED, Solar | Made-in-China.com',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 0,
+    price: 750000,
     stock: {
       status: 'pre_order',
     },
@@ -4116,7 +4163,7 @@ export const PRODUCTS: Product[] = [
     name: 'Blue Carbon All-In-One Solar Power Street Light 140W | Blue Carbon Nigeria',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 0,
+    price: 600000,
     stock: {
       status: 'pre_order',
     },
@@ -4130,44 +4177,9 @@ export const PRODUCTS: Product[] = [
         'Blue Carbon All-In-One Solar Power Street Light 140W | Blue Carbon Nigeria',
       ],
     ],
-    images: [],
-    support:
-      'DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.',
-    installation: [],
-    applications: [
-      'Outdoor lighting',
-      'Roads and streets',
-      'Compounds',
-      'Commercial outdoor areas',
-    ],
-    paymentOptions: [],
-    featured: false,
-  },
-  {
-    id: 'china-blue-carbon-factory-direct-outdoor-all-in-one-solar-street-light-led-lamp-smart-remote-control-manufacturers-suppliers-factory',
-    slug: 'china-blue-carbon-factory-direct-outdoor-all-in-one-solar-street-light-led-lamp-smart-remote-control-manufacturers-suppliers-factory',
-    name: 'China Blue Carbon Factory Direct Outdoor All in One Solar Street Light LED Lamp Smart Remote Control Manufacturers Suppliers Factory',
-    brand: 'Blue Carbon',
-    category: 'Solar Street Lights',
-    price: 0,
-    stock: {
-      status: 'pre_order',
-    },
-    summary:
-      'China Blue Carbon Factory Direct Outdoor All in One Solar Street Light LED Lamp Smart Remote Control Manufacturers Suppliers Factory',
-    description:
-      'China Blue Carbon Factory Direct Outdoor All in One Solar Street Light LED Lamp Smart Remote Control Manufacturers Suppliers Factory. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.',
-    features: [],
-    specs: [
-      [
-        'Source title',
-        'China Blue Carbon Factory Direct Outdoor All in One Solar Street Light LED Lamp Smart Remote Control Manufacturers Suppliers Factory',
-      ],
-    ],
     images: [
-      'https://www.bctvnergy.com/uploads/29346/25w-e333a.jpg',
-      'https://www.bctvnergy.com/uploads/29346/25w-33477.jpg',
-      'https://www.bctvnergy.com/uploads/29346/25w-7152c.jpg',
+      'https://bluecarbon.ng/public/uploads/all/Y4PWqKNouLQvDD2l7dQ4B94Arq9qIN4X0GA2z8GS.webp',
+      'https://bluecarbon.ng/public/uploads/all/5lCFLlptvyPA5mSSydG4QyfZq92j0WguJLSTouC6.webp',
     ],
     support:
       'DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.',
@@ -4187,7 +4199,7 @@ export const PRODUCTS: Product[] = [
     name: 'China Blue Carbon Factory Direct Outdoor All in One Solar Street Light LED Lamp Smart Remote Control Manufacturers Suppliers Factory',
     brand: 'Blue Carbon',
     category: 'Solar Street Lights',
-    price: 0,
+    price: 450000,
     stock: {
       status: 'pre_order',
     },
@@ -4206,43 +4218,6 @@ export const PRODUCTS: Product[] = [
       'https://www.bctvnergy.com/uploads/29346/25w-e333a.jpg',
       'https://www.bctvnergy.com/uploads/29346/25w-33477.jpg',
       'https://www.bctvnergy.com/uploads/29346/25w-7152c.jpg',
-    ],
-    support:
-      'DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.',
-    installation: [],
-    applications: [
-      'Outdoor lighting',
-      'Roads and streets',
-      'Compounds',
-      'Commercial outdoor areas',
-    ],
-    paymentOptions: [],
-    featured: false,
-  },
-  {
-    id: 'why-blue-carbon-100w-integrated-solar-street-light-is-best-for-highway-projects',
-    slug: 'why-blue-carbon-100w-integrated-solar-street-light-is-best-for-highway-projects',
-    name: 'Why Blue Carbon 100W Integrated Solar Street Light Is Best for Highway Projects',
-    brand: 'Blue Carbon',
-    category: 'Solar Street Lights',
-    price: 0,
-    stock: {
-      status: 'pre_order',
-    },
-    summary: 'Why Blue Carbon 100W Integrated Solar Street Light Is Best for Highway Projects',
-    description:
-      'Why Blue Carbon 100W Integrated Solar Street Light Is Best for Highway Projects. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.',
-    features: [],
-    specs: [
-      [
-        'Source title',
-        'Why Blue Carbon 100W Integrated Solar Street Light Is Best for Highway Projects',
-      ],
-    ],
-    images: [
-      'https://bluecarbon.ng/public/assets/img/app.png',
-      'https://bluecarbon.ng/public/assets/img/play.png',
-      'https://bluecarbon.ng/',
     ],
     support:
       'DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.',
@@ -4262,7 +4237,7 @@ export const PRODUCTS: Product[] = [
     name: '50 Watt LED Street Light at ₹ 3000/piece | LED Street Light in Hapur | ID: 14111746848',
     brand: 'Unknown',
     category: 'Solar Street Lights',
-    price: 0,
+    price: 850000,
     stock: {
       status: 'pre_order',
     },
@@ -4278,43 +4253,6 @@ export const PRODUCTS: Product[] = [
       ],
     ],
     images: ['https://4.imimg.com/data4/NC/HO/MY-14924728/50-watt-street-light-1000x1000.jpg'],
-    support:
-      'DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.',
-    installation: [],
-    applications: [
-      'Outdoor lighting',
-      'Roads and streets',
-      'Compounds',
-      'Commercial outdoor areas',
-    ],
-    paymentOptions: [],
-    featured: false,
-  },
-  {
-    id: 'new-design-led-street-light-led-street-lamp-street-light-made-in-china-com',
-    slug: 'new-design-led-street-light-led-street-lamp-street-light-made-in-china-com',
-    name: 'New Design LED Street Light - LED Street Lamp, Street Light | Made-in-China.com',
-    brand: 'Unknown',
-    category: 'Solar Street Lights',
-    price: 0,
-    stock: {
-      status: 'pre_order',
-    },
-    summary: 'New Design LED Street Light - LED Street Lamp, Street Light | Made-in-China.com',
-    description:
-      'New Design LED Street Light - LED Street Lamp, Street Light | Made-in-China.com. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.',
-    features: [],
-    specs: [
-      [
-        'Source title',
-        'New Design LED Street Light - LED Street Lamp, Street Light | Made-in-China.com',
-      ],
-    ],
-    images: [
-      'https://image.made-in-china.com/205f0j00AERfZYScCUkw/Ningbo-Die-Casting-Man-Energy-Co-Ltd-.jpg',
-      'https://www.micstatic.com/landing/www/product/img/as-long_e2640688.svg',
-      'https://streetlighthousing.en.made-in-china.com/',
-    ],
     support:
       'DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.',
     installation: [],
@@ -4406,7 +4344,7 @@ export const PRODUCTS: Product[] = [
     name: 'Alltop 200W Solar LED Street Light – Outdoor Solar Lamp 15W Polycrystalline Panel, LiFePO4 Battery - Fairprice Mall',
     brand: 'Alltop',
     category: 'Solar Street Lights',
-    price: 0,
+    price: 220000,
     stock: {
       status: 'pre_order',
     },
@@ -4439,7 +4377,7 @@ export const PRODUCTS: Product[] = [
     name: 'Alltop 1000W Solar LED Street Light – Outdoor Solar Lamp with 6V 15W Polycrystalline Panel - Fairprice Mall',
     brand: 'Alltop',
     category: 'Solar Street Lights',
-    price: 0,
+    price: 200000,
     stock: {
       status: 'pre_order',
     },
@@ -4477,7 +4415,7 @@ export const PRODUCTS: Product[] = [
     name: 'ALLTOP 300W Solar LED Flood Light with Solar Panel & Remote Control – Dusk-to-Dawn Outdoor Security Light - Fairprice Mall',
     brand: 'Alltop',
     category: 'Solar Flood Lights',
-    price: 0,
+    price: 270000,
     stock: {
       status: 'pre_order',
     },
