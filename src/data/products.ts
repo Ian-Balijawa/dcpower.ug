@@ -348,7 +348,7 @@ export const PRODUCTS: Product[] = [
     name: 'Jinko 620Wp N-Type Solar Panel JKM620N-66HL4M-(V), TOPCon, 1500V System',
     brand: 'Jinko Solar',
     category: 'Solar Panels & Lighting',
-    price: 439000,
+    price: 440000,
     oldPrice: 550000,
     sku: '55191',
     stock: {
@@ -451,7 +451,7 @@ export const PRODUCTS: Product[] = [
     name: 'Jinko 585W Monocrystalline Solar Panel, N-Type TOPCon Half-Cell, 1500V System',
     brand: 'Jinko Solar',
     category: 'Solar Panels & Lighting',
-    price: 399000,
+    price: 410000,
     oldPrice: 429000,
     sku: '49520',
     stock: {
@@ -515,7 +515,7 @@ export const PRODUCTS: Product[] = [
     name: 'Jinko Solar 590-Watt Monocrystalline Solar Panel JKM590N-78HL4-BDV, 1500VDC',
     brand: 'Jinko Solar',
     category: 'Solar Panels & Lighting',
-    price: 399000,
+    price: 415000,
     oldPrice: 420000,
     sku: '45002',
     stock: {
@@ -712,7 +712,7 @@ export const PRODUCTS: Product[] = [
     name: 'IET 550-Watt Monocrystalline Solar Panel IE-7M144-HC, 1000/1500VDC',
     brand: 'IET',
     category: 'Solar Panels & Lighting',
-    price: 389000,
+    price: 400000,
     oldPrice: 550000,
     sku: '39030',
     stock: {
@@ -805,7 +805,7 @@ export const PRODUCTS: Product[] = [
     name: 'Jinko 490Wp N-Type Solar Panel JKM490N-60HL4-(V), TOPCon, 1500V System',
     brand: 'Jinko Solar',
     category: 'Solar Panels & Lighting',
-    price: 329000,
+    price: 350000,
     oldPrice: 450000,
     sku: '47584',
     stock: {
@@ -870,7 +870,7 @@ export const PRODUCTS: Product[] = [
     name: 'Chloride 200W 12V Monocrystalline Solar Panel SP200CE',
     brand: 'Chloride Solar',
     category: 'Solar Panels & Lighting',
-    price: 249000,
+    price: 260000,
     oldPrice: 290000,
     sku: '45303',
     stock: {
@@ -3863,44 +3863,6 @@ export const PRODUCTS: Product[] = [
     images: [
       'https://image.made-in-china.com/155f0j00dcZfBqbGECka/Blue-Carbon-Mini-Simplify-Light-Outdoor-5m-20W-Solar-Street-Light-System-Low-Price.webp',
       'https://www.made-in-china.com/sendInquiry/prod_EwxQkpAdYUhO_oqbJTdMDCGlc.html?plant=en&from=shrom&type=down&page=p_detail',
-    ],
-    support:
-      'DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.',
-    installation: [],
-    applications: [
-      'Outdoor lighting',
-      'Roads and streets',
-      'Compounds',
-      'Commercial outdoor areas',
-    ],
-    paymentOptions: [],
-    featured: false,
-  },
-  {
-    id: 'blue-carbon-solar-products-lithium-batteries-solar-panels-street-lights-and-more-blue-carbon-nigeria',
-    slug: 'blue-carbon-solar-products-lithium-batteries-solar-panels-street-lights-and-more-blue-carbon-nigeria',
-    name: 'Blue Carbon Solar Products – Lithium Batteries, Solar Panels, Street Lights & More | Blue Carbon Nigeria',
-    brand: 'Blue Carbon',
-    category: 'Solar Panels & Lighting',
-    price: 600000,
-    stock: {
-      status: 'pre_order',
-    },
-    summary:
-      'Blue Carbon Solar Products – Lithium Batteries, Solar Panels, Street Lights & More | Blue Carbon Nigeria',
-    description:
-      'Blue Carbon Solar Products – Lithium Batteries, Solar Panels, Street Lights & More | Blue Carbon Nigeria. Product information has been structured from the supplied source listing and available source-page evidence. Specifications that were not verifiable have not been fabricated.',
-    features: [],
-    specs: [
-      [
-        'Source title',
-        'Blue Carbon Solar Products – Lithium Batteries, Solar Panels, Street Lights & More | Blue Carbon Nigeria',
-      ],
-    ],
-    images: [
-      'https://bluecarbonnigeria.com/product/olf-all-in-one-solar-street-lights/',
-      'https://bluecarbonnigeria.com/all-products/#',
-      'https://bluecarbonnigeria.com/all-products/?add-to-cart=1571',
     ],
     support:
       'DC Power UG.shop listing states free delivery and lifetime after-sales support where applicable.',
