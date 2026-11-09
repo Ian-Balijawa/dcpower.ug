@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { lazy, Suspense, useEffect } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Footer from './components/Footer';
@@ -39,6 +40,7 @@ export default function App() {
       </main>
       <Footer />
       <WhatsAppFab />
+      <Analytics />
     </>
   );
 }

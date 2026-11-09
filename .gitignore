@@ -47,3 +47,5 @@ Thumbs.db
 *.local
 
 .DS_Store
+# heroui-agents-md
+.heroui-docs/
