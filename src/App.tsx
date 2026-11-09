@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Analytics } from '@vercel/analytics/react';
 import { lazy, Suspense, useEffect } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
@@ -41,6 +42,7 @@ export default function App() {
       <Footer />
       <WhatsAppFab />
       <Analytics />
+      <SpeedInsights />
     </>
   );
 }
